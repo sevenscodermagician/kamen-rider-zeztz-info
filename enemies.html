@@ -3,6 +3,9 @@
 <head>
     <link rel="icon" type="image/x-icon" href="logo.png">
 <style>
+table, th, td {
+  border-style: none;
+}
 .center {
   margin: auto;
   width: 50%;
@@ -20,24 +23,39 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-
 </style>
-<title>Kamen Rider Zeztz</title>
+<title>Nightmare Info</title>
+
+<a href="index.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255)" class="button">Home</a>
 <a href="zeztz_forms.html" class="button">Zeztz forms</a>
 <a href="yeszz_forms.html" style="background-color: yellow; color: black;" class="button ">Yeszz forms</a>
-
 <a href="weapons.html" style="background-color: black; color: yellow;" class="button">weapon/gear</a>
-<a href="enemies.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255);" class="button">Nightmares</a>
 <a href="legendary_main.html" style="background-color: gold; color: yellow; text-align: right;" class="button">legend rider</a>
 
-<h1 style="text-align: center;"><img src="kamen_rider_zeztz.png" width="500" height="250" alt="zeztz logo"></h1>
 
-<p style="text-align: center; font-size: 200%; font-family: Arial, Helvetica, sans-serif;" >
-    kamen rider zeztz is about {add rest later}
-</p>
+<table class="center">
+    <tr>
+        <th><button onclick="loadenemies('gun')">Gun</button></th>
+        <th><button onclick="loadenemies('bomber')">Bomber</button></th>
+    </tr>
+</table>
 
-<br>
-<p style="text-align: center;" ><img src="kamen-rider-zeztz-ending-credit.gif" alt="episode 1 ending gif"></p> <!--end of page-->
+<table class="center">
+    <tr>
+        <th id="name" style="color: rgb(46, 1, 97); font-size:500%;">Gun Nightmare</th>
+        
+    </tr>
+    <tr>
+        <th id="render"> <img src="render/enemy/nightmare/gun.png" alt="Gun Nightmare"></th>
+        
+    </tr>
+
+    <tr>
+        <th id="info" style="font-size:250%;"> The first nightmare seen on screen created in Baku dreams</th>
+    </tr>
+</table>
+
+<script type="text/javascript" src="enemies_button.js"></script>
 </head>
 </body>
 </html>

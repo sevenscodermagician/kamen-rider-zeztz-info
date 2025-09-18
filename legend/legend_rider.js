@@ -225,4 +225,10 @@ const capsemData = {
         color: "rgba(100, 46, 2, 1)",
         info: "Gavv secondary rider who is fully human and use the Valenbuster to tranform into their base form"
     },
+    gochizo: {
+        key: "gochizo",
+        name: "Gochizo",
+        color: "rgba(212, 0, 255, 1)",
+        info: "Gochizo the gimmick item that the riders in Gavv uses to transform"
+    },
 };
