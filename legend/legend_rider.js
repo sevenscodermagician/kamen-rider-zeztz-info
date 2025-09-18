@@ -25,7 +25,7 @@ const capsemData = {
         key: "agito",
         name: "Agito",
         color: "yellow",
-        info: "agito"
+        info: "agito is the rider to come after kuuga and originally plan to be a sequal to kuuga."
     },
     ryuki: {
         key: "ryuki",
@@ -55,19 +55,19 @@ const capsemData = {
         key: "blade",
         name: "Blade",
         color: "rgba(0, 38, 255, 1)",
-        info: "blade"
+        info: "the first rider to have the gimmick of cards"
     },
     hibiki: {
         key: "hibiki",
         name: "Hibiki",
         color: "purple",
-        info: "hibiki"
+        info: "The oni rider the rider who had a different producer mid way in the series"
     },
     kabuto: {
         key: "kabuto",
         name: "Kabuto",
         color: "red",
-        info: "kabuto"
+        info: "the beetle rider who only have 1 other form being the final form kabuto speed matches faiz axel speed."
     },
     deno: {
         key: "den-o",
@@ -79,7 +79,7 @@ const capsemData = {
         key: "kiva",
         name: "Kiva",
         color: "yellow",
-        info: "kiva"
+        info: "the vampire rider"
     },
     decade: {
         key: "decade",
