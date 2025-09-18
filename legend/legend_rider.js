@@ -102,20 +102,32 @@ const capsemData = {
     double: {
         key: "double",
         name: "Double",
-        color: "green",
-        info: "double"
+        color: "greenyellow",
+        info: 'The 2 in 1 rider Double using the gaia memories 2 people are able to unit and become Double and the first rider to offically be called "Kamen Rider"'
+    },
+    accel: {
+        key: "accel",
+        name: "Accel",
+        color: "red",
+        info: 'the original person who was suppose to parnter up with phillp to become Kamen Rider Cyclone Accel Xtreme'
+    },
+    skull: {
+        key: "skull",
+        name: "Skull",
+        color: "rgba(72, 1, 90, 1)",
+        info: 'with a lost driver and the skull memory kamen rider skull is possible or even the proto/base form before it crystal skull'
     },
     ooo: {
         key: "ooo",
-        name: "Ooo",
+        name: "ooo",
         color: "red",
-        info: "ooo"
+        info: "using 3 core medals a head, torso and leg medal that given from their best friend Ankh allow eiji to become Kamen Rider ooo"
     },
     fourze: {
         key: "fourze",
         name: "Fourze",
-        color: "white",
-        info: "fourze"
+        color: "whitesmoke",
+        info: 'the space kamen rider and the last one in the "number theory" before most people beileve that to not be true'
     },
     wizard: {
         key: "wizard",
@@ -192,7 +204,7 @@ const capsemData = {
     geats: {
         key: "geats",
         name: "Geats",
-        color: "white",
+        color: "whitesmoke",
         info: "geats"
     },
     gotchard: {
