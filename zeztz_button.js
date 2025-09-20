@@ -49,7 +49,7 @@ const capsemData = {
         key: "machinery",
         name: "Machinery",
         color: "rgb(0, 255, 255)",
-        info: "test"
+        info: "{replace with more Info when avaiable}"
     },
     projection: {
         key: "projection",
@@ -69,7 +69,7 @@ const capsemData = {
         key: "barrier",
         name: "Barrier",
         color: "rgba(136, 255, 0, 1)",
-        info: "test"
+        info: "{replace with more Info when avaiable}"
     },
     wonder: {
         key: "wonder",
@@ -81,6 +81,6 @@ const capsemData = {
         key: "gravity",
         name: "Gravity",
         color: "rgba(153, 0, 255, 1)",
-        info: "test"
+        info: "{replace with more Info when avaiable}"
     }
 };

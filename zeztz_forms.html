@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html id="html" lang="en" style="background-color: wheat; text-align: center;">
+<html id="html" lang="en" style="
+    background: linear-gradient(90deg, #f9f1e7, #fcd5b5);
+    text-align: center;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+">
 <head>
     <link rel="icon" type="image/x-icon" href="logo.png">
 <style>
 table, th, td {
   border-style: none;
 }
+
 .center {
   margin: auto;
   width: 50%;
   padding: 5px;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, black, gray) 1;
 }
+
+
 .button {
   background-color: #00ff80;
   border: none;
@@ -25,7 +40,6 @@ table, th, td {
 }
 </style>
 <title>Rider Info</title>
-
 <a href="index.html" class="button">Home</a>
 <a href="yeszz_forms.html" style="background-color: yellow; color: black;" class="button ">Yeszz forms</a>
 <a href="weapons.html" style="background-color: black; color: yellow;" class="button">weapon/gear</a>
@@ -50,30 +64,39 @@ table, th, td {
 <br>
 
 <table class="center">
-    <tr>
-        <th id="name" style="color: red; font-size:500%;">Impact</th>
-        
-    </tr>
-    <tr>
-        <th id="capsem"><img src="capsem/impact.png" width="200" height="200" alt="impact capsem"></th>
-        <th id="render"> <img src="render/impact.png" alt="zeztz Impact"></th>
-        
-    </tr>
-
-    <tr>
-        <th id="capsem_gif" style="text-align: center;"><img src="capsem/gif/impact.gif" alt="impact.gif" width="250" height="250"></th>
-    </tr>
-
-    <tr>
-        <th id="info" style="font-size:250%;"> Impact is Zeztz based form and access by using the capsem by the same name this form is part off the physical (correct later) group and grant the user strength, speed and super jump</th>
-    </tr>
-    <tr>
-        <th id="extra" style="font-size:250%;"></th>
-    </tr>
-    <tr>
-        <th id="extraimg" style="font-size:250%;"></th>
-    </tr>
+  <tr>
+    <th id="name" colspan="2" style="color: red; font-size: 500%; text-align: center;">
+      Impact
+    </th>
+  </tr>
+  <tr>
+    <th id="capsem">
+      <img src="capsem/impact.png" width="200" height="200" alt="impact capsem">
+    </th>
+    <th id="render">
+      <img src="render/impact.png" width="200" height="500" alt="zeztz Impact">
+    </th>
+  </tr>
+  <tr>
+    <th id="capsem_gif" colspan="2" style="text-align: center;">
+      <img src="capsem/gif/impact.gif" width="250" height="250" alt="impact.gif">
+    </th>
+  </tr>
+  <tr>
+    <th id="info" colspan="2" style="font-size: 1.5em; line-height: 1.5;">
+      Impact is a Zeztz-based form accessed using the capsem of the same name. This form is part of the physical group and grants the user strength, speed, and super jump.
+    </th>
+  </tr>
+  <tr>
+    <th id="extra" colspan="2"></th>
+  </tr>
+  <tr>
+    <th id="extraimg" colspan="2"></th>
+  </tr>
 </table>
+
+
+
 
 <script type="text/javascript" src="zeztz_button.js"></script>
 </head>

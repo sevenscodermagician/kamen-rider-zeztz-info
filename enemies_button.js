@@ -22,6 +22,6 @@ const enemydata = {
         key: "bomber",
         name: "Bomber Nightmare",
         color: "rgb(46, 1, 97)",
-        info: "the second"
+        info: "the second nightmare created by Tetsuya Fujimi lingering resentment with the police force."
     },
 };
