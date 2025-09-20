@@ -133,7 +133,7 @@ const capsemData = {
         key: "wizard",
         name: "Wizard",
         color: "red",
-        info: "wizard"
+        info: "thanks to the phantom isnisde off wizard they can use magic stone that get converted into rings to use MAGIC for abilites or transformation"
     },
     gaim: {
         key: "gaim",
