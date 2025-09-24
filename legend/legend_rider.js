@@ -205,13 +205,25 @@ const capsemData = {
         key: "geats",
         name: "Geats",
         color: "whitesmoke",
-        info: "geats"
+        info: "one off the fighter in the Desire Grand Prix using 2 raise buckle to access their base form and the one to cause Daybreak timeline in Gotchard"
+    },
+    tycoon: {
+        key: "tycoon",
+        name: "Tycoon",
+        color: "green",
+        info: "one off the fighter in the Desire Grand Prix using 1 raise buckle to access their base form"
     },
     gotchard: {
         key: "gotchard",
         name: "Gotchard",
         color: "cyan",
-        info: "gotchard"
+        info: "With the gotchadriver the rider can combine 2 chemy into 1 becoming Kamen Rider Gotchard"
+    },
+    majade: {
+        key: "majade",
+        name: "Majade",
+        color: "rgba(255, 136, 1, 1)",
+        info: "majade"
     },
     gavv: {
         key: "gavv",
@@ -224,6 +236,12 @@ const capsemData = {
         name: "Valen",
         color: "rgba(100, 46, 2, 1)",
         info: "Gavv secondary rider who is fully human and use the Valenbuster to tranform into their base form"
+    },
+    vram: {
+        key: "vram",
+        name: "Vram",
+        color: "rgba(255, 217, 0, 1)",
+        info: "Gavv Tertiary rider who is fully granute and use the Vrastumgear to transform into their base form"
     },
     gochizo: {
         key: "gochizo",

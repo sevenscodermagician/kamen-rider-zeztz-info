@@ -25,7 +25,7 @@ const capsemData = {
         key: "impact",
         name: "Impact",
         color: "red",
-        info: "Impact is Zeztz based form ... main weapon is a sword"
+        info: "Impact is a Zeztz-based form accessed using the capsem of the same name. This form is part of the physical group and grants the user strength, speed, and super jump."
     },
     transform: {
         key: "transform",
