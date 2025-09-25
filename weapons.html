@@ -20,6 +20,8 @@ table, th, td {
   margin: auto;
   width: 50%;
   padding: 5px;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, red, crimson) 1;
 }
 .button {
   background-color: #00ff80;
@@ -35,15 +37,16 @@ table, th, td {
 }
 </style>
 <title>Weapons Info</title>
-<div class="center">
 <a href="index.html" class="button"style="background-color: black; color: yellow;">Home</a>
 <a href="zeztz_forms.html" class="button">Zeztz forms</a>
 <a href="yeszz_forms.html" style="background-color: yellow; color: black;" class="button ">Yeszz forms</a>
 <a href="capsem.html" style="color:gray; background-color: black;" class="button">Capsems</a>
 <a href="enemies.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255);" class="button">Nightmares</a>
 <a href="legendary_main.html" style="background-color: gold; color: yellow; text-align: right;" class="button">legend rider</a>
+<div class="center" id = "box3">
 
-<table class="center">
+
+<table class="center" id="box">
     <tr>
         <th><button onclick="loadWeapon('sword')"><img src="capsem/impact.png" width="50" height="50" alt="impact"></button></th>
         <th><button onclick="loadWeapon('gun')"><img src="capsem/stream.png" width="50" height="50" alt="stream"></button></th>
@@ -55,14 +58,14 @@ table, th, td {
 <p id="name" style="color: red;">Breakam Zeztzer Sword</p>
 <p id="Breakam_Zeztzer_sword"><img src="weapon/Breakam_Zeztzer_sword.png" alt="sword" width="300" height="300"></p>
 <p id="info">Impact, Wing and Transform main weapon</p>
+</div>
 <br>
-
-<hr style="margin: 0; border: none; height: 2px; background-color: black;">
+<hr style="margin: 0; border: none; height: 2px; background-color: black;" id="line">
 
 
 
 <p>Zeztz Gears</p>
-<table class="center">
+<table class="center" id="box2">
   <tr>
     <th><img src="weapon/phone.png" alt="zeztz phone"> </th>
     <th><img src="weapon/camera.png" alt=""></th>
@@ -81,7 +84,6 @@ table, th, td {
     <th>in the Dream World it tell zeztz if a Nightmare is there</th>
   </tr>
 </table>
-</div>
 <script type="text/javascript" src="weapondata.js"></script>
 </head>
 </body>
