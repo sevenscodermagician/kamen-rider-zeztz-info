@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html id="html" lang="en" style="
+    background: linear-gradient(90deg, #f9f1e7, #fcd5b5);
+    text-align: center;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+">
+<head>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+<style>
+table, th, td {
+  border-style: none;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, red, crimson) 1;
+}
+
+
+.button {
+  background-color: #00ff80;
+  border: none;
+  color: rgba(255, 0, 0, 0.897);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+<title>Rider Info</title>
+<a href="index.html" class="button"style="color:gray; background-color: black;">Home</a>
+<a href="zeztz_forms.html" class="button">Zeztz forms</a>
+<a href="yeszz_forms.html" style="background-color: yellow; color: black;" class="button ">Yeszz forms</a>
+<a href="weapons.html" style="background-color: black; color: yellow;" class="button">weapon/gear</a>
+<a href="enemies.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255);" class="button">Nightmares</a>
+<a href="legendary_main.html" style="background-color: gold; color: yellow; text-align: right;" class="button">legend rider</a>
+
+<table class="center" id="box">
+    <tr>
+        <th><button onclick="loadCapsem('impact')"><img src="capsem/impact.png" width="50" height="50" alt="impact"></button></th>
+        <th><button onclick="loadCapsem('transform')"><img src="capsem/transform.png" width="50" height="50" alt="transform"></button></th>
+        <th><button onclick="loadCapsem('wing')"><img src="capsem/wing.png" width="50" height="50" alt="wing"></button></th>
+        <th><button onclick="loadCapsem('stream')"><img src="capsem/stream.png" width="50" height="50" alt="stream"></button></th>
+        <th><button onclick="loadCapsem('machinery')"><img src="capsem/machinery.png" width="50" height="50" alt="machinery"></button></th>
+        <th><button onclick="loadCapsem('projection')"><img src="capsem/projection.png" width="50" height="50" alt="projection"></button></th>
+        <th><button onclick="loadCapsem('recovery')"><img src="capsem/recovery.png" width="50" height="50" alt="recovery"></button></th>
+        <th><button onclick="loadCapsem('barrier')"><img src="capsem/barrier.png" width="50" height="50" alt="barrier"></button></th>
+        <th><button onclick="loadCapsem('wonder')"><img src="capsem/wonder.png" width="50" height="50" alt="wonder"></button></th>
+        <th><button onclick="loadCapsem('gravity')"><img src="capsem/gravity.png" width="50" height="50" alt="gravity"></button></th>
+    </tr>
+    <tr>
+        <th><button onclick="loadCapsem('CODE')"><img src="capsem/CODE.png" width="50" height="50" alt="CODE"></button></th>
+    </tr>
+</table>
+
+<br>
+
+<table class="center" id ="box2">
+  <tr>
+    <th id="name" colspan="2" style="color: red; font-size: 500%; text-align: center;">
+      Impact
+    </th>
+  </tr>
+  <tr>
+    <th id="capsem">
+      <img src="capsem/impact.png" width="200" height="200" alt="impact capsem">
+    </th>
+  </tr>
+  <tr>
+    <th id="capsem_gif" colspan="2" style="text-align: center;">
+      <img src="capsem/gif/impact.gif" width="250" height="250" alt="impact.gif">
+    </th>
+  </tr>
+  <tr>
+    <th id="info" colspan="2" style="font-size: 1.5em; line-height: 1.5;">
+      Impact is a Zeztz-based form accessed using the capsem of the same name. This form is part of the physical group and grants the user strength, speed, and super jump.
+    </th>
+  </tr>
+  <tr>
+    <th id="extra" colspan="2"></th>
+  </tr>
+  <tr>
+    <th id="extraimg" colspan="2"></th>
+  </tr>
+</table>
+
+
+
+
+<script type="text/javascript" src="capsem_button.js"></script>
+</head>
+</body>
+</html>

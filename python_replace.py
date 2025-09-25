@@ -2,29 +2,10 @@ import os
 
 folder_path = os.getcwd()
 
-old_html_line = '''<html id="html" lang="en" style="
-    background: linear-gradient(135deg, #f9f1e7, #fcd5b5);
-    text-align: center;
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-">'''
-
-new_html_line = '''<html id="html" lang="en" style="
-    background: linear-gradient(90deg, #f9f1e7, #fcd5b5);
-    text-align: center;
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-">'''
+old_html_line = '''<a href="yeszz_forms.html" style="background-color: yellow; color: black;" class="button ">Yeszz forms</a>
+<a href="capsem.html" style="color:gray; background-color: black;" class="button">Capsems</a>'''
+new_html_line = '''<a href="../yeszz_forms.html" style="background-color: yellow; color: black;" class="button ">Yeszz forms</a>
+<a href="../capsem.html" style="color:gray; background-color: black;" class="button">Capsems</a>'''
 
 for root, dirs, files in os.walk(folder_path):
     for filename in files:

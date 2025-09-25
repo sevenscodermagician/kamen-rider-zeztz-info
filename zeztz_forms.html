@@ -22,7 +22,7 @@ table, th, td {
   width: 50%;
   padding: 5px;
   border: 5px solid;
-  border-image: linear-gradient(90deg, black, gray) 1;
+  border-image: linear-gradient(90deg, red, crimson) 1;
 }
 
 
@@ -42,11 +42,12 @@ table, th, td {
 <title>Rider Info</title>
 <a href="index.html" class="button">Home</a>
 <a href="yeszz_forms.html" style="background-color: yellow; color: black;" class="button ">Yeszz forms</a>
+<a href="capsem.html" style="color:gray; background-color: black;" class="button">Capsems</a>
 <a href="weapons.html" style="background-color: black; color: yellow;" class="button">weapon/gear</a>
 <a href="enemies.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255);" class="button">Nightmares</a>
 <a href="legendary_main.html" style="background-color: gold; color: yellow; text-align: right;" class="button">legend rider</a>
 
-<table class="center">
+<table class="center" id="box">
     <tr>
         <th><button onclick="loadCapsem('impact')"><img src="capsem/impact.png" width="50" height="50" alt="impact"></button></th>
         <th><button onclick="loadCapsem('transform')"><img src="capsem/transform.png" width="50" height="50" alt="transform"></button></th>
@@ -63,7 +64,7 @@ table, th, td {
 
 <br>
 
-<table class="center">
+<table class="center" id="box2">
   <tr>
     <th id="name" colspan="2" style="color: red; font-size: 500%; text-align: center;">
       Impact
