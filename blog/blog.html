@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" style="background:linear-gradient(90deg,#f9f1e7,#fcd5b5);text-align:center;font-family:'Segoe UI',Arial,Helvetica,sans-serif;color:#333;line-height:1.6;padding:20px;margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;">
+<head>
+<link rel="icon" type="image/x-icon" href="logo.png">
+<title>Rider Info</title>
+<style>
+table, th, td {
+  border-style: none;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, rgb(46, 1, 97), rgb(18, 0, 39)) 1;
+}
+
+.button {
+  background-color: #00ff80;
+  border: none;
+  color: rgba(255, 0, 0, 0.897);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; /* keeps normal button width */
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #00cc66;
+  transform: translateY(-3px) scale(1.05); /* pop-up hover */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.blog-container {
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: #00cc66;
+  transform: scale(1.05);
+}
+
+.blog-container {
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+.blog-post {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 3px solid;
+  border-image: linear-gradient(135deg, rgb(46, 1, 97), rgb(18, 0, 39)) 1;
+}
+
+.blog-post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.blog-post h2 {
+  margin: 0 0 10px;
+  font-size: 1.6em;
+  color: #222;
+  font-weight: bold;
+}
+
+.blog-post small {
+  display: block;
+  margin-bottom: 15px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.blog-post p {
+  font-size: 1.05em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.blog-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.blog-images img {
+  max-width: 100%;
+  border-radius: 8px;
+  flex: 1 1 calc(50% - 10px);
+  object-fit: cover;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-images img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+</style>
+</head>
+<body>
+<a href="../index.html" style="background-color:yellow;color:black" class="button">Home</a>
+<a href="../zeztz_forms.html" class="button">Zeztz forms</a>
+<a href="../weapons.html" style="background-color:black;color:yellow" class="button">weapon/gear</a>
+<a href="../enemies.html" style="background-color:rgb(112,3,201);color:rgb(225,0,255)" class="button">Nightmares</a>
+<a href="../legendary_main.html" style="background-color:gold;color:yellow" class="button">legend rider</a>
+<div class="blog-container" id="blog"></div>
+<script src="blog.js"></script>
+</body>
+</html>

@@ -16,13 +16,17 @@
 table, th, td {
   border-style: none;
 }
+
 .center {
   margin: auto;
   width: 50%;
+  max-width: 100%; /* prevents sideways scroll */
   padding: 5px;
   border: 5px solid;
   border-image: linear-gradient(90deg, rgb(46, 1, 97), rgb(18, 0, 39)) 1;
+  table-layout: fixed; /* keeps cells contained */
 }
+
 .button {
   background-color: #00ff80;
   border: none;
@@ -30,13 +34,33 @@ table, th, td {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline-block; /* keeps normal button width */
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #00cc66;
+  transform: translateY(-3px) scale(1.05); /* pop-up hover */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.blog-container {
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  padding: 10px;
 }
 </style>
 <title>Nightmare Info</title>
+</head>
+<body>
 
 <a href="index.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255)" class="button">Home</a>
 <a href="zeztz_forms.html" class="button">Zeztz forms</a>
@@ -47,10 +71,8 @@ table, th, td {
 
 <p style="font-size: 150%; text-align: center;">It has been suggested by Nox that nightmares manifest according to an individual's mental state, influencing the content of their dreams.</p>
 
+<p style="color:rgb(46, 1, 97); font-size: 200%;">Nightmares</p>
 
-<br>
-<p style="color:rgb(46, 1, 97); scale: 400%;">Nightmares</p>
-<br>
 <table class="center">
     <tr>
         <th><button onclick="loadenemies('gun')">Gun</button></th>
@@ -58,24 +80,19 @@ table, th, td {
     </tr>
 </table>
 
-
-
 <table class="center">
     <tr>
         <th id="name" style="color: rgb(46, 1, 97); font-size:500%;">Gun Nightmare</th>
-        
     </tr>
     <tr>
-        <th id="render"> <img src="render/enemy/nightmare/gun.png" alt="Gun Nightmare"></th>
-        
+        <th id="render"> <img src="render/enemy/nightmare/gun.png" alt="Gun Nightmare" style="max-width:100%; height:auto; border-radius:12px;"></th>
     </tr>
-
     <tr>
-        <th id="info" style="font-size:250%; color:rgb(46, 1, 97);"> The first nightmare seen on screen created in Baku dreams</th>
+        <th id="info" style="font-size:250%; color:rgb(46, 1, 97);">The first nightmare seen on screen created in Baku dreams</th>
     </tr>
 </table>
 
 <script type="text/javascript" src="enemies_button.js"></script>
-</head>
+
 </body>
 </html>

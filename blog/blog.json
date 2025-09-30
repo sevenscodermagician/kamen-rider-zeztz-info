@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Welcome!",
+    "date": "30/09/2025",
+    "content": "This is the first post of the Rider Info blog. More updates will come soon!",
+    "images": ["../kamen-rider-zeztz-breakam-zeztzer.gif"]
+  },
+  {
+    "title": "Zeztz Newest Form",
+    "date": "5/10/2025",
+    "content": "Today, I added a new Rider form to the Zeztz system. Check it out on the forms page!",
+    "images": []
+  }
+]
