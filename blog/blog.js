@@ -8,9 +8,18 @@ fetch("blog.json")
       return new Date(year, month - 1, day);
     }
 
-    posts.sort((a, b) => parseDate(b.date) - parseDate(a.date));
+    const now = new Date();
+    const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
-    posts.forEach(post => {
+    const visiblePosts = posts
+      .filter(post => {
+        if (!post.date) return true;
+        const postDate = parseDate(post.date);
+        return postDate <= todayStart;
+      })
+      .sort((a, b) => parseDate(b.date) - parseDate(a.date));
+
+    visiblePosts.forEach(post => {
       const div = document.createElement("div");
       div.classList.add("blog-post");
 

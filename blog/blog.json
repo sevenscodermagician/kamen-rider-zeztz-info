@@ -1,9 +1,21 @@
 [
   {
     "title": "Welcome!",
-    "date": "30/09/2025",
-    "content": "This is the first post of the Rider Info blog. More updates will come soon!",
+    "date": "6/09/2025",
+    "content": "First blog part",
     "images": ["../kamen-rider-zeztz-breakam-zeztzer.gif"]
+  },
+  {
+    "title": "Zeztz Transform Form",
+    "date": "13/09/2025",
+    "content": "First look at Zeztz Transform in action",
+    "images": ["../render/transform.png"]
+  },
+  {
+    "title": "Zeztz Wing Form",
+    "date": "27/09/2025",
+    "content": "First look at Zeztz Wing in action",
+    "images": ["../render/wing.png"]
   },
   {
     "title": "Zeztz Newest Form",
