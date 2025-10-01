@@ -3,46 +3,31 @@ import os
 
 folder_path = os.getcwd()
 
-old_html_line = '''.button {
-  background-color: #00ff80;
-  border: none;
-  color: rgba(255, 0, 0, 0.897);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block; 
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
-}
+old_html_line = '''<html id="html" lang="en" style="
+    background: linear-gradient(125deg, rgb(255, 240, 212), #f5ac71);
+    text-align: center;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+"
+'''
+new_html_line = '''<html id="html" lang="en" style="
+    background: linear-gradient(125deg, rgb(255, 240, 212), #f5ac71);
+    text-align: center;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+">
 
-.button:hover {
-  background-color: #00cc66;
-  transform: translateY(-3px) scale(1.05); /* pop-up hover */
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}'''
-new_html_line = '''.button {
-  background-color: #00ff80;
-  border: none;
-  color: rgba(255, 0, 0, 0.897);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block; 
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #00cc66;
-  transform: translateY(-3px) scale(1.05); 
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}'''
+'''
 
 for root, dirs, files in os.walk(folder_path):
     for filename in files:
