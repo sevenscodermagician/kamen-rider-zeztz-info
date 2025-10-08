@@ -54,7 +54,7 @@ const capsemData = {
         name: "Machinery",
         color: "rgb(0, 255, 255)",
         info: "Machinery",
-        gradient:"linear-gradient(90deg, rgb(0,255,255), rgb(0,150,150)) 1"
+        gradient:"linear-gradient(90deg, rgb(0,255,255), rgba(0, 214, 214, 1)) 1"
     },
     projection: {
         key: "projection",
@@ -109,8 +109,15 @@ const capsemData = {
     erase: {
         key: "erase",
         name: "Erase",
-        color: "rgba(255, 251, 0, 1)",
-        info: "Erase",
+        color: "yellow",
+        info: "Erase the capsem that Yeszz will use in a up coming episode",
+        gradient:"linear-gradient(90deg, yellow, yellow) 1"
+    },
+    booster: {
+        key: "booster",
+        name: "Booster",
+        color: "rainbow",
+        info: "Booster!",
         gradient:"linear-gradient(90deg, blue, darkblue) 1"
     }
 };

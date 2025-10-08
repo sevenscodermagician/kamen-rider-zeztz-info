@@ -24,4 +24,16 @@ const enemydata = {
         color: "rgb(46, 1, 97)",
         info: "the second nightmare created by Tetsuya Fujimi lingering resentment with the police force."
     },
+    crow: {
+        key: "crow",
+        name: "Crow Nightmare",
+        color: "rgb(46, 1, 97)",
+        info: "the third nightmare created by {} lingering resentment {}"
+    },
+    blackcat: {
+        key: "black-cat",
+        name: "Black Cat Nightmare",
+        color: "rgb(46, 1, 97)",
+        info: "place holder"
+    },
 };
