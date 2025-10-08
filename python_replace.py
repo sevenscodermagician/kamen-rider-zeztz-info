@@ -1,6 +1,4 @@
 import os
-
-
 folder_path = os.getcwd()
 
 old_html_line = '''<html id="html" lang="en" style="
@@ -13,10 +11,10 @@ old_html_line = '''<html id="html" lang="en" style="
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-"
+">
 '''
 new_html_line = '''<html id="html" lang="en" style="
-    background: linear-gradient(125deg, rgb(255, 240, 212), #f5ac71);
+    background: linear-gradient(90deg, rgb(255, 240, 212), #f5ac71);
     text-align: center;
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     color: #333;
@@ -26,7 +24,6 @@ new_html_line = '''<html id="html" lang="en" style="
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 ">
-
 '''
 
 for root, dirs, files in os.walk(folder_path):
