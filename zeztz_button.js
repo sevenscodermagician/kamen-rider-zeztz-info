@@ -60,7 +60,7 @@ const capsemData = {
         name: "Machinery",
         color: "rgb(0, 255, 255)",
         info: "{replace with more Info when avaiable}",
-        gradient:"linear-gradient(90deg, rgb(0,255,255), rgb(0,150,150)) 1"
+        gradient:"linear-gradient(90deg, rgb(0,255,255), rgba(0, 214, 214, 1)) 1"
     },
     projection: {
         key: "projection",
