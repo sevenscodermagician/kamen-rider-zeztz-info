@@ -139,25 +139,25 @@ const capsemData = {
         key: "gaim",
         name: "Gaim",
         color: "orange",
-        info: "Gaim"
+        info: "Gaim the orange samurai!"
     },
     drive: {
         key: "drive",
         name: "Drive",
         color: "red",
-        info: "drive"
+        info: 'Drive the rider who can create "slowdowns"'
     },
     ghost: {
         key: "ghost",
         name: "Ghost",
-        color: "orange",
-        info: "ghost"
+        color: "orangered",
+        info: "the ghost rider! GHOST!"
     },
     exaid: {
         key: "ex-aid",
         name: "Ex-aid",
-        color: "pink",
-        info: "ex-aid"
+        color: "violet",
+        info: "the number one gamer!"
     },
     build: {
         key: "build",
@@ -181,7 +181,7 @@ const capsemData = {
         key: "zi-o",
         name: "Zi-o",
         color: "magenta",
-        info: "Iwea Zi-o the 20th heisei rider"
+        info: "Iwea Zi-o the 20th heisei rider the demon king himself! the one that will control the past, present and future!"
     },
     zeroone: {
         key: "zero-one",

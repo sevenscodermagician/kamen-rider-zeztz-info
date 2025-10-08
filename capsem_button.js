@@ -111,7 +111,7 @@ const capsemData = {
         name: "Erase",
         color: "yellow",
         info: "Erase the capsem that Yeszz will use in a up coming episode",
-        gradient:"linear-gradient(90deg, yellow, yellow) 1"
+        gradient:"linear-gradient(90deg, yellow, gold) 1"
     },
     booster: {
         key: "booster",
