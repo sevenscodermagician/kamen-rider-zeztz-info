@@ -22,5 +22,11 @@
     "date": "5/10/2025",
     "content": "Today zeztz newest form have arrive being Stream!",
     "images": ["../render/stream.png"]
+  },
+  {
+    "title": "Zeztz Machinery Form",
+    "date": "12/10/2025",
+    "content": "another new capsem being MACHINERY!",
+    "images": ["../render/machinery.png"]
   }
 ]
