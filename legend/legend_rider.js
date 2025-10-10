@@ -57,6 +57,12 @@ const capsemData = {
         color: "rgba(0, 38, 255, 1)",
         info: "the first rider to have the gimmick of cards"
     },
+    garren: {
+        key: "garren",
+        name: "Garren",
+        color: "rgba(43, 255, 0, 1)",
+        info: "blade secondary rider garren!"
+    },
     hibiki: {
         key: "hibiki",
         name: "Hibiki",
