@@ -28,5 +28,11 @@
     "date": "12/10/2025",
     "content": "another new capsem being MACHINERY!",
     "images": ["../render/machinery.png"]
+  },
+  {
+    "title": "Zeztz Projection Form",
+    "date": "12/10/2025",
+    "content": "another new capsem being PROJECTION and their clones!",
+    "images": ["../render/projection.png","../render/projection_clone.png"]
   }
 ]
