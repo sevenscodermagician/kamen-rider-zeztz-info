@@ -81,11 +81,23 @@ const capsemData = {
         color: "red",
         info: "The Time Traveller rider Masked Rider Den-o with the denliner den-o can go to any time with a ticket"
     },
+    zeronos: {
+        key: "zeronos",
+        name: "Zeronos",
+        color: "green",
+        info: "The Time Traveller rider Masked Rider that no one remembers Zeronos!"
+    },
     kiva: {
         key: "kiva",
         name: "Kiva",
         color: "yellow",
         info: "the vampire rider"
+    },
+    ixa: {
+        key: "ixa",
+        name: "Ixa",
+        color: "white",
+        info: "kiva secondary rider who fully human KAMEN RIDER IXA!"
     },
     decade: {
         key: "decade",
@@ -193,13 +205,13 @@ const capsemData = {
         key: "zero-one",
         name: "Zero-One",
         color: "yellow",
-        info: "zero-one"
+        info: "The first rewia rider kamen rider ZERO-ONE"
     },
     saber: {
         key: "saber",
         name: "Saber",
         color: "red",
-        info: "saber"
+        info: "The rider that battles with book kamen rider SABER!"
     },
     revice: {
         key: "revice",

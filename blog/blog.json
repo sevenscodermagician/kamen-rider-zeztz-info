@@ -31,8 +31,14 @@
   },
   {
     "title": "Zeztz Projection Form",
-    "date": "12/10/2025",
+    "date": "19/10/2025",
     "content": "another new capsem being PROJECTION and their clones!",
     "images": ["../render/projection.png","../render/projection_clone.png"]
+  },
+  {
+    "title": "Zeztz Recovery Form",
+    "date": "19/10/2025",
+    "content": "another new capsem being RECOVERY!",
+    "images": ["../render/recovery.png"]
   }
 ]
