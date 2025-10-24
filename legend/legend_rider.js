@@ -243,6 +243,12 @@ const capsemData = {
         color: "rgba(255, 136, 1, 1)",
         info: "majade"
     },
+    legend: {
+        key: "legend",
+        name: "Legend",
+        color: "yellow",
+        info: "The rewia decade now let make things GORGEOUS"
+    },
     gavv: {
         key: "gavv",
         name: "Gavv",
