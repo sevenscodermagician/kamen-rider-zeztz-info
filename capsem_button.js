@@ -8,17 +8,32 @@ function loadCapsem(key) {
     var capsem_gif = document.getElementById("capsem_gif");
 
     name.innerHTML = data.name;
-    name.style.color = data.color;
     capsem.innerHTML = `<img src="capsem/${data.key}.png" width="200" height="200" alt="${data.key} capsem">`;
     info.innerHTML = data.info || "";
     capsem_gif.innerHTML = `<img src="capsem/gif/${data.key}.gif" alt="${data.key}.gif" width="250" height="250">`;
 
     const box = document.getElementById('box');
     const box2 = document.getElementById('box2');
-    box.style.borderImage = data.gradient ;
-    box2.style.borderImage = data.gradient;
 
+    if (data.color === "rainbow") {
+        name.style.background = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
+        name.style.webkitBackgroundClip = "text";
+        name.style.webkitTextFillColor = "transparent";
+
+        const rainbowGradient = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
+        box.style.borderImage = rainbowGradient + " 1";
+        box2.style.borderImage = rainbowGradient + " 1";
+    } else {
+        name.style.background = "";
+        name.style.webkitBackgroundClip = "";
+        name.style.webkitTextFillColor = "";
+        name.style.color = data.color || "";
+
+        box.style.borderImage = data.gradient || "";
+        box2.style.borderImage = data.gradient || "";
+    }
 }
+
 
 const capsemData = {
     impact: {
@@ -99,25 +114,32 @@ const capsemData = {
         gradient:"linear-gradient(90deg, rgba(43, 40, 44, 1), gray) 1"
         
     },
-    nightmare: {
-        key: "nightmare",
-        name: "Nightmare",
-        color: "rgba(125, 0, 209, 1)",
-        info: "Nightmare",
-        gradient:"linear-gradient(90deg, blue, darkblue) 1"
-    },
     erase: {
         key: "erase",
         name: "Erase",
         color: "yellow",
-        info: "Erase the capsem that Yeszz will use in a up coming episode",
+        info: "",
+        gradient:"linear-gradient(90deg, yellow, gold) 1"
+    },
+    plasma: {
+        key: "plasma",
+        name: "Plasma",
+        color: "yellow",
+        info: "zeztz first powerup!",
         gradient:"linear-gradient(90deg, yellow, gold) 1"
     },
     booster: {
         key: "booster",
         name: "Booster",
         color: "rainbow",
-        info: "Booster!",
-        gradient:"linear-gradient(90deg, blue, darkblue) 1"
+        info: "",
+        gradient:"linear-gradient(90deg, white, wheat) 1"
+    },
+    void: {
+        key: "void",
+        name: "Void",
+        color: "black",
+        info: "",
+        gradient:"linear-gradient(90deg, black, black) 1"
     }
 };
