@@ -33,6 +33,12 @@ const capsemData = {
         color: "red",
         info: "facing a mirror with an Advent Deck your able to transform and enter the mirror world as Masked Rider Ryuki"
     },
+    knight: {
+        key: "knight",
+        name: "Knight",
+        color: "darkblue",
+        info: "facing a mirror with an Advent Deck your able to transform and enter the mirror world as Masked Rider Knight"
+    },
     faiz: {
         key: "faiz",
         name: "Faiz",
@@ -123,6 +129,12 @@ const capsemData = {
         color: "greenyellow",
         info: 'The 2 in 1 rider Double using the gaia memories 2 people are able to unit and become Double and the first rider to offically be called "Kamen Rider"'
     },
+    fangjoker: {
+        key: "fangjoker",
+        name: "Double Fang Joker",
+        color: "white",
+        info: 'Double power up form the berserk form'
+    },
     accel: {
         key: "accel",
         name: "Accel",
@@ -135,11 +147,23 @@ const capsemData = {
         color: "rgba(72, 1, 90, 1)",
         info: 'with a lost driver and the skull memory kamen rider skull is possible or even the proto/base form before it crystal skull'
     },
+    joker: {
+        key: "joker",
+        name: "Joker",
+        color: "rgba(72, 1, 90, 1)",
+        info: 'after losing phillip they lost the ability to become double but threat still remain in wind city so using the lost driver and the joker memory shotro become KAMEN RIDER JOKER!'
+    },
     ooo: {
         key: "ooo",
         name: "ooo",
         color: "red",
         info: "using 3 core medals a head, torso and leg medal that given from their best friend Ankh allow eiji to become Kamen Rider ooo"
+    },
+    birth: {
+        key: "birth",
+        name: "Birth",
+        color: "DarkGreen",
+        info: "the kamen rider that uses cell medals to access weapons or even finisher anyone can be kamen rider birth so HAPPY BIRTHDAY!"
     },
     fourze: {
         key: "fourze",
@@ -182,6 +206,12 @@ const capsemData = {
         name: "Build",
         color: "blue",
         info: "The genius rider, Build with the build driver allow the user to combine 2 fullbottles and a hazard level of 3 or more to transform"
+    },
+    hazardRT: {
+        key: "hazardRT",
+        name: "hazardRT",
+        color: "black",
+        info: "Build power up allowing them to access Build Hazard form with the ability to use any bestmatch to access hazard form but like build uses rabbit and tank as the base"
     },
     crossz: {
         key: "cross-z",
@@ -229,6 +259,12 @@ const capsemData = {
         key: "tycoon",
         name: "Tycoon",
         color: "green",
+        info: "one off the fighter in the Desire Grand Prix using 1 raise buckle to access their base form"
+    },
+    buffa: {
+        key: "buffa",
+        name: "Buffa",
+        color: "purple",
         info: "one off the fighter in the Desire Grand Prix using 1 raise buckle to access their base form"
     },
     gotchard: {

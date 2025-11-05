@@ -22,8 +22,24 @@ function loadCapsem(key) {
 
     const box = document.getElementById('box');
     const box2 = document.getElementById('box2');
-    box.style.borderImage = data.gradient ;
-    box2.style.borderImage = data.gradient;
+
+    if (data.color === "rainbow") {
+        name.style.background = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
+        name.style.webkitBackgroundClip = "text";
+        name.style.webkitTextFillColor = "transparent";
+
+        const rainbowGradient = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
+        box.style.borderImage = rainbowGradient + " 1";
+        box2.style.borderImage = rainbowGradient + " 1";
+    } else {
+        name.style.background = "";
+        name.style.webkitBackgroundClip = "";
+        name.style.webkitTextFillColor = "";
+        name.style.color = data.color || "";
+
+        box.style.borderImage = data.gradient || "";
+        box2.style.borderImage = data.gradient || "";
+    }
 }
 
 const capsemData = {
@@ -98,5 +114,19 @@ const capsemData = {
         color: "rgba(153, 0, 255, 1)",
         info: "{replace with more Info when avaiable}",
         gradient:"linear-gradient(90deg, rgba(153, 0, 255, 1), DarkSlateBlue) 1"
-    }
+    },
+    plasma: {
+        key: "plasma",
+        name: "Plasma",
+        color: "yellow",
+        info: "replace with more info later",
+        gradient:"linear-gradient(90deg, yellow, gold) 1"
+    },
+    booster: {
+        key: "booster",
+        name: "Booster",
+        color: "rainbow",
+        info: "replace with more info later",
+        gradient:"linear-gradient(90deg, white, wheat) 1"
+    },
 };
