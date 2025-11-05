@@ -209,7 +209,7 @@ const capsemData = {
     },
     hazardRT: {
         key: "hazardRT",
-        name: "hazardRT",
+        name: "Build hazard Rabbit Tank",
         color: "black",
         info: "Build power up allowing them to access Build Hazard form with the ability to use any bestmatch to access hazard form but like build uses rabbit and tank as the base"
     },
