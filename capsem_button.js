@@ -118,7 +118,7 @@ const capsemData = {
         key: "erase",
         name: "Erase",
         color: "yellow",
-        info: "",
+        info: "erase...",
         gradient:"linear-gradient(90deg, yellow, gold) 1"
     },
     plasma: {
@@ -132,14 +132,14 @@ const capsemData = {
         key: "booster",
         name: "Booster",
         color: "rainbow",
-        info: "",
+        info: "zeztz plasma powerup... powerup!",
         gradient:"linear-gradient(90deg, white, wheat) 1"
     },
     void: {
         key: "void",
         name: "Void",
         color: "black",
-        info: "",
+        info: "a capsem that had it abilites erase.",
         gradient:"linear-gradient(90deg, black, black) 1"
     }
 };
