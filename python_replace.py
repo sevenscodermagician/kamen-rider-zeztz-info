@@ -1,8 +1,9 @@
 import os
 folder_path = os.getcwd()
 
-old_html_line = '''<a href="../yeszz_forms.html" style="background-color: yellow; color: black;" class="button ">Yeszz forms</a>'''
-new_html_line = '''<a href="../yeszz_forms.html" style="background-color: gold; color: white;" class="button ">Yeszz forms</a>'''
+old_html_line = '''</head>'''
+new_html_line = '''<p style="text-align:center;">This site is devoted to celebrating Kamen Rider Zeztz, the acclaimed series produced by Toei.</p>
+</head>'''
 
 for root, dirs, files in os.walk(folder_path):
     for filename in files:

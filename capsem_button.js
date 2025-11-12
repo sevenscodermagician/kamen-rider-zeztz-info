@@ -47,49 +47,49 @@ const capsemData = {
         key: "transform",
         name: "Transform",
         color: "orange",
-        info: "Transform",
+        info: "Transform! give the ability to stretch and morph the hands or legs into whatever shape the user desire",
         gradient:"linear-gradient(90deg, orange, orangered) 1"
     },
     wing: {
         key: "wing",
         name: "Wing",
         color: "rgb(255, 0, 119)",
-        info: "Wing",
+        info: "Wing! give the ability of flight",
         gradient:"linear-gradient(90deg, rgb(255, 0, 119), rgba(187, 4, 89, 1)) 1"
     },
     stream: {
         key: "stream",
         name: "Stream",
         color: "blue",
-        info: "Stream",
+        info: "Stream! give the ability to control the air",
         gradient:"linear-gradient(90deg, blue, darkblue) 1"
     },
     machinery: {
         key: "machinery",
         name: "Machinery",
         color: "rgb(0, 255, 255)",
-        info: "Machinery",
+        info: "Machinery!",
         gradient:"linear-gradient(90deg, rgb(0,255,255), rgba(0, 214, 214, 1)) 1"
     },
     projection: {
         key: "projection",
         name: "Projection",
         color: "rgba(0, 102, 255, 1)",
-        info: "Projection",
+        info: "Projection! give the ability to clone themselves",
         gradient:"linear-gradient(90deg, rgba(0, 102, 255, 1), darkblue) 1"
     },
     recovery: {
         key: "recovery",
         name: "Recovery",
         color: "rgba(30, 255, 0, 1)",
-        info: "Recovery",
+        info: "Recovery! give the ability to heal others",
         gradient:"linear-gradient(90deg, rgb(30,255,0), rgba(21, 180, 0, 1)) 1"
     },
     barrier: {
         key: "barrier",
         name: "Barrier",
         color: "rgba(136, 255, 0, 1)",
-        info: "Barrier",
+        info: "Barrier! ability allow to create a barrier",
         gradient:"linear-gradient(90deg, rgb(136,255,0), rgba(0, 177, 59, 1)) 1"
     },
     wonder: {

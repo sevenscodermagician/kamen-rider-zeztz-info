@@ -15,6 +15,30 @@ function legendcapsem(key) {
 }
 
 const capsemData = {
+    ichigo: {
+        key: "ichigo",
+        name: "Ichigo",
+        color: "rgb(94, 255, 0)",
+        info: "The very first Kamen Rider given their power by the enemy Shocker"
+    },
+    nigo: {
+        key: "nigo",
+        name: "Nigo",
+        color: "red",
+        info: "The very Secondary Rider created to defeat ichigo but turn good."
+    },
+    v3: {
+        key: "v3",
+        name: "V3",
+        color: "rgb(7, 235, 83)",
+        info: "The next generation of riders given the power of Ichigo and Nigo to fight against Shocker"
+    },
+    riderman: {
+        key: "riderman",
+        name: "Riderman",
+        color: "blue",
+        info: "a new rider here to help V3 defeat Shocker."
+    },
     kuuga: {
         key: "kuuga",
         name: "Kuuga",

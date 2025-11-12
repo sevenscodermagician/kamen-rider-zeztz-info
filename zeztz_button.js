@@ -24,9 +24,12 @@ function loadCapsem(key) {
     const box2 = document.getElementById('box2');
 
     if (data.color === "rainbow") {
-        name.style.background = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
+        name.style.backgroundImage = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
+        name.style.backgroundSize = "100%";
+        name.style.backgroundRepeat = "no-repeat";
         name.style.webkitBackgroundClip = "text";
         name.style.webkitTextFillColor = "transparent";
+
 
         const rainbowGradient = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
         box.style.borderImage = rainbowGradient + " 1";
