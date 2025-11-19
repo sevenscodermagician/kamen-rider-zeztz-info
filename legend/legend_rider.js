@@ -39,6 +39,24 @@ const capsemData = {
         color: "blue",
         info: "a new rider here to help V3 defeat Shocker."
     },
+    X: {
+        key: "X",
+        name: "X",
+        color: "rgb(212, 196, 196)",
+        info: 'After a surgery to save their son using the last of his robotics technology to give them the ability to transform into the "X rider"'
+    },
+    amazon: {
+        key: "amazon",
+        name: "Amazon",
+        color: "rgb(31, 168, 3)",
+        info: 'after a plane crash in the amazon rainforest a child was adopted by an ican tribue under the name "Amazon" who later get given the GiGi Armlet'
+    },
+    stronger: {
+        key: "stronger",
+        name: "Stronger",
+        color: "rgba(168, 3, 3, 1)",
+        info: 'following the death of his close friend and mentor goro, they join a evil organization with the promise of GREAT POWER and fueled by desire of revenge they undergoes a surgery to become Masked Rider Stronger'
+    },
     kuuga: {
         key: "kuuga",
         name: "Kuuga",
@@ -257,6 +275,12 @@ const capsemData = {
     },
     zeroone: {
         key: "zero-one",
+        name: "Zero-One",
+        color: "yellow",
+        info: "The first rewia rider kamen rider ZERO-ONE"
+    },
+    zeroonealt: {
+        key: "zero-one_alt",
         name: "Zero-One",
         color: "yellow",
         info: "The first rewia rider kamen rider ZERO-ONE"
