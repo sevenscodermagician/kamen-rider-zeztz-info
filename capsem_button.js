@@ -15,6 +15,10 @@ function loadCapsem(key) {
     const box = document.getElementById('box');
     const box2 = document.getElementById('box2');
 
+    if (data.name.toLowerCase() === "void") {
+        capsem_gif.innerHTML = "";
+    }
+
     if (data.color === "rainbow") {
         name.style.background = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
         name.style.webkitBackgroundClip = "text";
@@ -117,9 +121,9 @@ const capsemData = {
     erase: {
         key: "erase",
         name: "Erase",
-        color: "yellow",
-        info: "erase...",
-        gradient:"linear-gradient(90deg, yellow, gold) 1"
+        color: "orange",
+        info: "Erase Capsem with the ability to erase things including capsems",
+        gradient:"linear-gradient(90deg, white, orange) 1"
     },
     plasma: {
         key: "plasma",

@@ -49,8 +49,14 @@
   },
   {
     "title": "Zeztz Barrier Form",
-    "date": "16/11/2025",
+    "date": "23/11/2025",
     "content": "this week will have another new capsem being BARRIER!",
     "images": ["../capsem/barrier.png"]
+  },
+  {
+    "title": "Nox Knight Erase Form",
+    "date": "30/11/2025",
+    "content": "this week will have another new capsem being BARRIER!",
+    "images": ["../capsem/erase.png"]
   }
 ]

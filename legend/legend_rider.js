@@ -57,6 +57,12 @@ const capsemData = {
         color: "rgba(168, 3, 3, 1)",
         info: 'following the death of his close friend and mentor goro, they join a evil organization with the promise of GREAT POWER and fueled by desire of revenge they undergoes a surgery to become Masked Rider Stronger'
     },
+    skyrider: {
+        key: "skyrider",
+        name: "Skyrider",
+        color: "darkgreen",
+        info: 'the first rider reboot and later refer to Masked Rider Skyrider'
+    },
     kuuga: {
         key: "kuuga",
         name: "Kuuga",
@@ -283,7 +289,7 @@ const capsemData = {
         key: "zero-one_alt",
         name: "Zero-One",
         color: "yellow",
-        info: "The first rewia rider kamen rider ZERO-ONE"
+        info: "this is the Original Capsem gif for the zero-one capsem which goes unused and replace with the newer one"
     },
     saber: {
         key: "saber",
@@ -356,5 +362,11 @@ const capsemData = {
         name: "Gochizo",
         color: "rgba(212, 0, 255, 1)",
         info: "Gochizo the gimmick item that the riders in Gavv uses to transform"
+    },
+    gozyuger: {
+        key: "gozyuger",
+        name: "Gozyuger",
+        color: "red",
+        info: "gozyuger is the 50th sentai team and the final sentai for a while"
     },
 };

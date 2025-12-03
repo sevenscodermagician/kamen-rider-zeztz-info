@@ -23,6 +23,20 @@ table, th, td {
   border: 5px solid;
   border-image: linear-gradient(90deg, red, crimson) 1;
 }
+.plasmacenter {
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, yellow, gold) 1;
+}
+.noxcenter {
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, white, orange) 1;
+}
 .button {
   background-color: #00ff80;
   border: none;
@@ -57,7 +71,7 @@ table, th, td {
 <title>Weapons Info</title>
 <a href="index.html" class="button"style="background-color: black; color: yellow;">Home</a>
 <a href="zeztz_forms.html" class="button">Zeztz forms</a>
-<a href="yeszz_forms.html" style="background-color: gold; color: white;" class="button ">Yeszz forms</a>
+<a href="nox_knight_forms.html" style="background-color: white; color: gold;" class="button ">Nox Knight forms</a>
 <a href="capsem.html" style="color:gray; background-color: black;" class="button">Capsems</a>
 <a href="enemies.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255);" class="button">Nightmares</a>
 <a href="blog/blog.html" style="background-color:rgb(44, 44, 44);color:rgba(51, 255, 0, 0.712)" class="button"> blog</a>
@@ -68,19 +82,31 @@ table, th, td {
 
 <table class="center" id="box">
     <tr>
-        <th><button onclick="loadWeapon('sword')"><img src="weapon/Breakam_Zeztzer_sword.png" width="50" height="50" alt="impact"></button></th>
-        <th><button onclick="loadWeapon('gun')"><img src="weapon/Breakam_Zeztzer_gun.png" width="50" height="50" alt="stream"></button></th>
-        <th><button onclick="loadWeapon('axe')"><img src="weapon/Breakam_Zeztzer_axe.png" width="50" height="50" alt="recovery"></button></th>
-        <th><button onclick="loadWeapon('scythe')"><img src="weapon/Breakam_Zeztzer_scythe.png" width="50" height="50" alt="wonder"></button></th>
+        <th><button onclick="loadWeapon('sword')"><img src="weapon/Breakam_Zeztzer_sword.png" width="100" height="100" alt="impact"></button></th>
+        <th><button onclick="loadWeapon('gun')"><img src="weapon/Breakam_Zeztzer_gun.png" width="100" height="100" alt="stream"></button></th>
+        <th><button onclick="loadWeapon('axe')"><img src="weapon/Breakam_Zeztzer_axe.png" width="100" height="100" alt="recovery"></button></th>
+        <th><button onclick="loadWeapon('scythe')"><img src="weapon/Breakam_Zeztzer_scythe.png" width="100" height="100" alt="wonder"></button></th>
     </tr>
 </table>
 
-<p id="name" style="color: red;">Breakam Zeztzer Sword</p>
+<p id="zeztzweaponname" style="color: red;">Breakam Zeztzer Sword</p>
 <p id="Breakam_Zeztzer_sword"><img src="weapon/Breakam_Zeztzer_sword.png" alt="sword" width="300" height="300"></p>
-<p id="info">Impact, Wing and Transform main weapon</p>
+<p id="zeztzweaponinfo">Impact, Wing and Transform main weapon</p>
 </div>
 <br>
-<hr style="margin: 0; border: none; height: 2px; background-color: black;" id="line">
+
+<div class="plasmacenter" id="box6">
+<table class="plasmacenter" id="box5">
+    <tr>
+        <th><button onclick="plasmaloadWeapon('inazuma_blaster')"><img src="weapon/inazuma_blaster.png" width="50" height="100" alt="plasma"></button></th>
+        <th><button onclick="plasmaloadWeapon('greatsword')"><img src="weapon/Breakam_Zeztzer_sword.png" width="100" height="100" alt="greatsword"></button></th>
+    </tr>
+</table>
+<p id="plasmaweapon" style="color: yellow;">Inazuma Blaster</p>
+<p id="plasmaweaponimage"><img src="weapon/inazuma_blaster.png" alt="inazuma blaster" width="300" height="500"></p>
+<p id="plasmaweaponinfo">Plasma main weapon</p>
+</div>
+<br>
 
 <table class="center" id="box2">
   <tr>
@@ -89,7 +115,7 @@ table, th, td {
   </tr>
   <tr>
     <th>Zeztz Phone allow them to talk with CODE</th>
-    <th>info 2</th>
+    <th>allow them to take photos and view it for research</th>
   </tr>
   <tr>
     <th><img src="weapon/license.png" alt=""></th>
@@ -97,10 +123,27 @@ table, th, td {
   </tr>
   <tr>
     
-    <th>info 3</th>
+    <th>allow them to see stuff that the human eyes can't see such as fingerprints</th>
     <th>in the Dream World it tell zeztz if a Nightmare is there</th>
   </tr>
 </table>
+
+<br>
+<hr style="margin: 0; border: none; height: 2px; background-color: orange;" id="line">
+<p style="text-align:center; color:yellow;">Nox Gears/weapons</p>
+
+<div class="noxcenter">
+<table class="noxcenter" id="box4">
+    <tr>
+        <th><button onclick="noxloadWeapon('breakam_buster')"><img src="weapon/breakam_buster.png" width="100" height="100" alt="caliber"></button></th>
+        <th><button onclick="noxloadWeapon('breakam_buster_launcher')"><img src="weapon/breakam_buster_launcher.png" width="100" height="100" alt="launcher"></button></th>
+    </tr>
+</table>
+<p id="noxweaponname" style="color: white;">Nox Sword</p>
+<p id="noxweaponimage"><img src="weapon/breakam_buster.png" alt="sword" width="300" height="300"></p>
+<p id="noxweaponinfo">Nox Sword</p>
+</div>
+
 <script type="text/javascript" src="weapondata.js"></script>
 <p style="text-align:center;">This site is devoted to celebrating Kamen Rider Zeztz, the acclaimed series produced by Toei.</p>
 </head>
