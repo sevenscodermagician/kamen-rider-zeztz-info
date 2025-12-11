@@ -56,7 +56,19 @@
   {
     "title": "Nox Knight Erase Form",
     "date": "30/11/2025",
-    "content": "this week will have another new capsem being BARRIER!",
+    "content": "nox knight form reveal and their transformation make nox look like the number 4 could this be agent 4 we find out later",
     "images": ["../capsem/erase.png"]
+  },
+  {
+    "title": "Zeztz Gravity Form",
+    "date": "7/12/2025",
+    "content": "this week will have another new capsem being GRAVITY! and reveal that nox is agent 4 will zeztz get their other capsems back",
+    "images": ["../capsem/gravity.png"]
+  },
+  {
+    "title": "Zeztz first powerup Plasma",
+    "date": "14/12/2025",
+    "content": "this week will have another new capsem being PLASMA!",
+    "images": ["../capsem/gravity.png"]
   }
 ]
