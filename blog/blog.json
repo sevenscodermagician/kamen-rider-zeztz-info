@@ -69,6 +69,18 @@
     "title": "Zeztz first powerup Plasma",
     "date": "14/12/2025",
     "content": "this week will have another new capsem being PLASMA!",
-    "images": ["../capsem/gravity.png"]
+    "images": ["../capsem/plasma.png"]
+  },
+  {
+    "title": "Zeztz BOOSTER!",
+    "date": "20/12/2025",
+    "content": "this week will have another new capsem being PLASMA!",
+    "images": ["../capsem/booster.png"]
+  },
+  {
+    "title": "MERRY CHRISTMAS",
+    "date": "25/12/2025",
+    "content": "MERRY CHRISTMAS TO ALL",
+    "images": ["../capsem/christmas.png"]
   }
 ]

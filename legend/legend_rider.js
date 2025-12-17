@@ -87,11 +87,17 @@ const capsemData = {
         color: "darkblue",
         info: "facing a mirror with an Advent Deck your able to transform and enter the mirror world as Masked Rider Knight"
     },
+    ouja: {
+        key: "ouja",
+        name: "Ouja",
+        color: "purple",
+        info: "facing a mirror with an Advent Deck your able to transform and enter the mirror world as Masked Rider Ouja"
+    },
     faiz: {
         key: "faiz",
         name: "Faiz",
         color: "red",
-        info: "using an ancient belt created by Smart Brain a Orphnoch can transform into Kamen Rider Faiz"
+        info: "using an ancient belt created by Smart Brain a Orphnoch can transform into Masked Rider Faiz"
     },
     faiz_axel: {
         key: "faiz_axel",
@@ -103,7 +109,13 @@ const capsemData = {
         key: "kaixa",
         name: "Kaixa",
         color: "yellow",
-        info: "using an ancient belt created by Smart Brain someone can transform into Kamen Rider Kaixa but losing come with a cost."
+        info: "using an ancient belt created by Smart Brain someone can transform into Masked Rider Kaixa but losing come with a cost."
+    },
+    delta: {
+        key: "delta",
+        name: "Delta",
+        color: "white",
+        info: "a belt with multiple user whoever use this belt will become Masked Rider Delta"
     },
     blade: {
         key: "blade",
@@ -116,6 +128,12 @@ const capsemData = {
         name: "Garren",
         color: "rgba(43, 255, 0, 1)",
         info: "blade secondary rider garren!"
+    },
+    chalice: {
+        key: "chalice",
+        name: "Chalice",
+        color: "rgba(209, 6, 6, 1)",
+        info: "Chalice is not a traditional Masked Riderbut rather the form of the Mantis Undead taken on by the Joker Undead as per his abilities."
     },
     hibiki: {
         key: "hibiki",
@@ -201,6 +219,12 @@ const capsemData = {
         color: "rgba(72, 1, 90, 1)",
         info: 'after losing phillip they lost the ability to become double but threat still remain in wind city so using the lost driver and the joker memory shotro become KAMEN RIDER JOKER!'
     },
+    eternal: {
+        key: "eternal",
+        name: "Eternal",
+        color: "rgba(252, 250, 221, 1)",
+        info: 'with a lost driver and the eternal memory kamen rider eternal is possible or even the proto/base form before it name Red Flare'
+    },
     ooo: {
         key: "ooo",
         name: "ooo",
@@ -236,6 +260,12 @@ const capsemData = {
         name: "Drive",
         color: "red",
         info: 'Drive the rider who can create "slowdowns"'
+    },
+    mach: {
+        key: "mach",
+        name: "Mach",
+        color: "white",
+        info: 'Tracking... terminating... both done at Mach speed! Kamen Rider... Mach!'
     },
     ghost: {
         key: "ghost",

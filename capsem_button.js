@@ -100,14 +100,14 @@ const capsemData = {
         key: "wonder",
         name: "Wonder",
         color: "rgba(183, 0, 255, 1)",
-        info: "Wonder",
+        info: "Wonder the ability to change one size",
         gradient:"linear-gradient(90deg, rgba(183, 0, 255, 1), MediumPurple) 1"
     },
     gravity: {
         key: "gravity",
         name: "Gravity",
         color: "rgba(153, 0, 255, 1)",
-        info: "Gravity",
+        info: "Gravity the ability to control one gravity",
         gradient:"linear-gradient(90deg, rgba(153, 0, 255, 1), DarkSlateBlue) 1"
     },
     CODE: {
@@ -129,7 +129,7 @@ const capsemData = {
         key: "plasma",
         name: "Plasma",
         color: "yellow",
-        info: "zeztz first powerup!",
+        info: "zeztz first powerup created by going to their first nightmare and capturing lighting inside of the Void Capsem",
         gradient:"linear-gradient(90deg, yellow, gold) 1"
     },
     booster: {
@@ -143,7 +143,7 @@ const capsemData = {
         key: "void",
         name: "Void",
         color: "black",
-        info: "a capsem that had it abilites erase.",
+        info: "a capsem that had it abilites erase by Nox Knight",
         gradient:"linear-gradient(90deg, black, black) 1"
     }
 };
