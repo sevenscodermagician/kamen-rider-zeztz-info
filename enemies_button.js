@@ -28,7 +28,31 @@ const enemydata = {
         key: "crow",
         name: "Crow Nightmare",
         color: "rgb(46, 1, 97)",
-        info: "the third nightmare created by {} lingering resentment {}"
+        info: "the third nightmare created by Miyuki Asamiya lingering resentment of Heights and anxiety over travelling by plane"
+    },
+	prison: {
+        key: "prison",
+        name: "Prison Nightmare",
+        color: "rgb(46, 1, 97)",
+        info: "created by Bijogi lingering resentment guilt and trauma involving an accident with nem"
+    },
+	poison: {
+        key: "poison",
+        name: "Poison Nightmare",
+        color: "rgb(46, 1, 97)",
+        info: "created by Bijogi lingering resentment of a medical condition threatening his liveihood"
+    },
+	mold: {
+        key: "mold",
+        name: "Mold Nightmare",
+        color: "rgb(46, 1, 97)",
+        info: "created by a struggling artist-turned-counterfeiter name Taro Atsumi resentment over fear that his never making something of his own and his greatest works"
+    },
+	shadow: {
+        key: "shadow",
+        name: "Shadow Nightmare",
+        color: "rgb(46, 1, 97)",
+        info: "created by Nox lingering resentment of hes fears and preventing nox from waking up"
     },
     blackcat: {
         key: "black-cat",
