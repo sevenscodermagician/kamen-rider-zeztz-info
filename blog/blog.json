@@ -81,12 +81,25 @@
     "title": "MERRY CHRISTMAS",
     "date": "25/12/2025",
     "content": "MERRY CHRISTMAS TO ALL",
-    "images": ["../capsem/christmas.png"]
+    "images": ["image/christmas.png"]
   },
   {
     "title": "New Years!",
     "date": "1/1/2026",
-    "content": "HAPPY NEW YEARS",
+    "content": "HAPPY NEW YEARS IT TIME FOR 2026!",
+    "images": ["image/newyears.png"]
+  },
+  {
+    "title": "Shadow!",
+    "date": "4/1/2026",
+    "content": "new episode new capsem and new rider... Kamen Rider Nox and the Shadow Capsem also Zero death.",
+    "images": ["../capsem/shadow.png"]
+  },
+
+  {
+    "title": "end of zeztz website",
+    "date": "1/9/2026",
+    "content": "this is being written in advanced but with the end of zeztz this website will be taking no more updates it was mainly a school project and with zeztz ending a new project may begin",
     "images": []
   }
 ]
