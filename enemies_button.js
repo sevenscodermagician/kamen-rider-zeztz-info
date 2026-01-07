@@ -48,11 +48,23 @@ const enemydata = {
         color: "rgb(46, 1, 97)",
         info: "created by a struggling artist-turned-counterfeiter name Taro Atsumi resentment over fear that his never making something of his own and his greatest works"
     },
+    meteor: {
+        key: "meteor",
+        name: "Meteor Nightmare",
+        color: "rgb(46, 1, 97)",
+        info: "created by {} lingering resentment of {}"
+    },
 	shadow: {
         key: "shadow",
         name: "Shadow Nightmare",
         color: "rgb(46, 1, 97)",
         info: "created by Nox lingering resentment of hes fears and preventing nox from waking up"
+    },
+    wolf: {
+        key: "wolf",
+        name: "Wolf Nightmare",
+        color: "rgb(46, 1, 97)",
+        info: "created by {} lingering resentment of {}"
     },
     blackcat: {
         key: "black-cat",

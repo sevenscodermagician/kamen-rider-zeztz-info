@@ -145,5 +145,33 @@ const capsemData = {
         color: "black",
         info: "a capsem that had it abilites erase by Nox Knight",
         gradient:"linear-gradient(90deg, black, black) 1"
+    },
+    shadow: {
+        key: "shadow",
+        name: "Shadow",
+        color: "black",
+        info: "a capsem created with essence of the Shadow Nightmare",
+        gradient:"linear-gradient(90deg, rgba(29, 0, 63, 1), rgb(46, 1, 97)) 1"
+    },
+    gun: {
+        key: "gun",
+        name: "Gun",
+        color: "darkred",
+        info: "a capsem created with essence of the Gun Nightmare",
+        gradient:"linear-gradient(90deg, rgba(63, 0, 0, 1), rgba(153, 0, 89, 1)) 1"
+    },
+    wolf: {
+        key: "wolf",
+        name: "Wolf",
+        color: "rgba(173, 147, 0, 1)",
+        info: "a capsem created with essence of the Wolf Nightmare",
+        gradient:"linear-gradient(90deg, rgba(102, 92, 0, 1), rgba(139, 137, 0, 1)) 1"
+    },
+    blank: {
+        key: "blank",
+        name: "Blank",
+        color: "white",
+        info: "a blank capsem with no nightmare inside",
+        gradient:"linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(218, 218, 218, 1)) 1"
     }
 };

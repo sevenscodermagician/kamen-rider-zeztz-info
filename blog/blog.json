@@ -82,5 +82,11 @@
     "date": "25/12/2025",
     "content": "MERRY CHRISTMAS TO ALL",
     "images": ["../capsem/christmas.png"]
+  },
+  {
+    "title": "New Years!",
+    "date": "1/1/2026",
+    "content": "HAPPY NEW YEARS",
+    "images": []
   }
 ]
