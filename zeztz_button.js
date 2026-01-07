@@ -22,6 +22,7 @@ function loadCapsem(key) {
 
     const box = document.getElementById('box');
     const box2 = document.getElementById('box2');
+    const driverbox = document.getElementById('driverbox');
 
     if (data.color === "rainbow") {
         name.style.backgroundImage = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
@@ -34,6 +35,7 @@ function loadCapsem(key) {
         const rainbowGradient = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
         box.style.borderImage = rainbowGradient + " 1";
         box2.style.borderImage = rainbowGradient + " 1";
+        driverbox.style.borderImage = rainbowGradient + " 1";
     } else {
         name.style.background = "";
         name.style.webkitBackgroundClip = "";
@@ -42,6 +44,7 @@ function loadCapsem(key) {
 
         box.style.borderImage = data.gradient || "";
         box2.style.borderImage = data.gradient || "";
+        driverbox.style.borderImage = data.gradient || "";
     }
 }
 
@@ -133,3 +136,6 @@ const capsemData = {
         gradient:"linear-gradient(90deg, white, wheat) 1"
     },
 };
+
+function loadriver(num){
+}

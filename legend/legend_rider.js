@@ -63,6 +63,48 @@ const capsemData = {
         color: "darkgreen",
         info: 'the first rider reboot and later refer to Masked Rider Skyrider'
     },
+    super1: {
+        key: "super-1",
+        name: "Super-1",
+        color: "silver",
+        info: "A Kamen Rider enhanced by NASA with interchangeable power hands."
+    },
+    zx: {
+        key: "zx",
+        name: "ZX",
+        color: "darkred",
+        info: "A cybernetic ninja Rider created by Badan."
+    },
+    black: {
+        key: "black",
+        name: "Black",
+        color: "black",
+        info: "A Kingstone Warrior who rebelled against Gorgom."
+    },
+    blackrx: {
+        key: "blackrx",
+        name: "Black RX",
+        color: "crimson",
+        info: "The evolved form of Black after being empowered by solar energy."
+    },
+    shin: {
+        key: "shin",
+        name: "Shin",
+        color: "darkgreen",
+        info: "A dark bio-horror Kamen Rider created through forced mutation."
+    },
+    zo: {
+        key: "zo",
+        name: "ZO",
+        color: "forestgreen",
+        info: "A genetically engineered Rider who protects nature."
+    },
+    j: {
+        key: "j",
+        name: "J",
+        color: "lightgreen",
+        info: "A Kamen Rider capable of growing to gigantic size."
+    },
     kuuga: {
         key: "kuuga",
         name: "Kuuga",
