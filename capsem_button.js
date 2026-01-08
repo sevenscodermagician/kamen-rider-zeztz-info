@@ -136,7 +136,7 @@ const capsemData = {
         key: "booster",
         name: "Booster",
         color: "rainbow",
-        info: "zeztz plasma powerup... powerup!",
+        info: "a capsem with the ability to boost zeztz forms and the power source of the Zeroider",
         gradient:"linear-gradient(90deg, white, wheat) 1"
     },
     void: {

@@ -1,8 +1,8 @@
 import os
 folder_path = os.getcwd()
 
-old_html_line = '''<a href="nox_knight_forms.html" style="background-color: white; color: gold;" class="button ">Nox Knight forms</a>'''
-new_html_line = '''<a href="nox_knight_forms.html" style="background-color: white; color: gold;" class="button ">Nox forms</a>'''
+old_html_line = '''<link rel="icon" type="image/x-icon" href="logo/zeztz.png">'''
+new_html_line = '''<link rel="icon" type="image/x-icon" href="zeztzlogo.png">'''
 
 for root, dirs, files in os.walk(folder_path):
     for filename in files:

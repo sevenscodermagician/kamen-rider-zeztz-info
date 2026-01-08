@@ -104,7 +104,7 @@ const capsemData = {
         key: "barrier",
         name: "Barrier",
         color: "rgba(136, 255, 0, 1)",
-        info: "{replace with more Info when avaiable}",
+        info: "give the user the ability to create barriers",
         gradient:"linear-gradient(90deg, rgb(136,255,0), rgba(0, 177, 59, 1)) 1"
     },
     wonder: {
@@ -118,21 +118,21 @@ const capsemData = {
         key: "gravity",
         name: "Gravity",
         color: "rgba(153, 0, 255, 1)",
-        info: "{replace with more Info when avaiable}",
+        info: "give the user the ability to control gravity",
         gradient:"linear-gradient(90deg, rgba(153, 0, 255, 1), DarkSlateBlue) 1"
     },
     plasma: {
         key: "plasma",
         name: "Plasma",
         color: "yellow",
-        info: "replace with more info later",
+        info: "Plasma is zeztz first powerup and giving zeztz a brand new weapon this capsem give the user the ability of speed",
         gradient:"linear-gradient(90deg, yellow, gold) 1"
     },
     booster: {
         key: "booster",
         name: "Booster",
         color: "rainbow",
-        info: "replace with more info later",
+        info: "Booster is zeztz second powerup and giving the ability to boost zeztz abilites (mainly used with plasma)",
         gradient:"linear-gradient(90deg, white, wheat) 1"
     },
 };
