@@ -173,5 +173,33 @@ const capsemData = {
         color: "white",
         info: "a blank capsem with no nightmare inside",
         gradient:"linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(218, 218, 218, 1)) 1"
+    },
+    extra: {
+        key: "extra",
+        name: "Extra",
+        color: "purple",
+        info: "Extra used by 3 to transform into Lord 3",
+        gradient:"linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(218, 218, 218, 1)) 1"
+    },
+    shock: {
+        key: "shock",
+        name: "Shock",
+        color: "yellow",
+        info: "Shock used by 5 to transform into Lord 5",
+        gradient:"linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(218, 218, 218, 1)) 1"
+    },
+    panic: {
+        key: "panic",
+        name: "Panic",
+        color: "blue",
+        info: "Panic used by 6 to transform into Lord 6",
+        gradient:"linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(218, 218, 218, 1)) 1"
+    },
+    clear: {
+        key: "clear",
+        name: "Clear",
+        color: "magenta",
+        info: "Clear",
+        gradient:"linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(218, 218, 218, 1)) 1"
     }
 };

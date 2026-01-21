@@ -16,7 +16,7 @@ const enemydata = {
         key: "gun",
         name: "Gun Nightmare",
         color: "rgb(46, 1, 97)",
-        info: "The first nightmare seen on screen created in Baku dreams"
+        info: "The first nightmare seen on screen created in Baku dreams later the nightmare combine with a blank capsem to become the Gun Capsem"
     },
     bomber: {
         key: "bomber",
@@ -58,18 +58,18 @@ const enemydata = {
         key: "shadow",
         name: "Shadow Nightmare",
         color: "rgb(46, 1, 97)",
-        info: "created by Nox lingering resentment of hes fears and preventing nox from waking up"
+        info: "created by Nox lingering resentment of hes fears and preventing nox from waking up later the nightmare combine with a blank capsem to become the Shadow Capsem"
     },
     wolf: {
         key: "wolf",
         name: "Wolf Nightmare",
         color: "rgb(46, 1, 97)",
-        info: "created by {} lingering resentment of {}"
+        info: "created by {} lingering resentment of {} later the nightmare combine with a blank capsem to become the Wolf Capsem"
     },
     blackcat: {
         key: "black-cat",
         name: "Black Cat Nightmare",
         color: "rgb(46, 1, 97)",
-        info: "place holder"
+        info: "created by {} lingering resentment of {}"
     },
 };

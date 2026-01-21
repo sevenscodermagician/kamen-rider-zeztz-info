@@ -16,11 +16,16 @@
 table, th, td {
   border-style: none;
 }
+
 .center {
   margin: auto;
   width: 50%;
   padding: 5px;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, red, crimson) 1;
 }
+
+
 .button {
   background-color: #00ff80;
   border: none;
@@ -51,39 +56,66 @@ table, th, td {
   text-align: left;
   padding: 10px;
 }
-
-.construction {
-  margin: 60px auto;
-  padding: 30px;
-  background-color: rgba(255, 255, 0, 0.3);
-  border: 3px dashed orange;
-  border-radius: 10px;
-  font-size: 28px;
-  color: #d9534f;
-  font-weight: bold;
-  text-shadow: 1px 1px 2px #fff;
-  max-width: 600px;
-}
 </style>
-<title>{replace title}</title>
-</head>
-<body>
-
+<title>Rider Info</title>
 <a href="index.html" class="button">Home</a>
 <a href="zeztz_forms.html" class="button">Zeztz forms</a>
 <a href="nox_knight_forms.html" style="background-color: white; color: gold;" class="button ">Nox forms</a>
-<a href="lord_forms.html" style="background-color: darkred; color: gold;" class="button ">Lord forms</a>
-
 <a href="capsem.html" style="color:gray; background-color: black;" class="button">Capsems</a>
 <a href="weapons.html" style="background-color: black; color: yellow;" class="button">weapon/gear</a>
 <a href="enemies.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255);" class="button">Nightmares</a>
-<a href="blog/blog.html" style="background-color:rgb(44, 44, 44);color:rgba(51, 255, 0, 0.712)" class="button">blog</a>
+<a href="blog/blog.html" style="background-color:rgb(44, 44, 44);color:rgba(51, 255, 0, 0.712)" class="button"> blog</a>
 <a href="legendary_main.html" style="background-color: gold; color: yellow; text-align: right;" class="button">legend rider</a>
 
-<div class="construction">
-  🚧 PAGE UNDER CONSTRUCTION 🚧<br>
-  Check back soon for updates!
-</div>
+<table class="center" id="driverbox">
+    <tr>
+        <th><button onclick="loadriver(0)"><img src="driver/lord_invoker.png" width="50" height="50" alt="Lord Invoker"></button></th>
+    </tr>
+</table>
+
+<table class="center" id="box">
+    <tr>
+        <th><button onclick="loadCapsem('extra')"><img src="capsem/extra.png" width="50" height="50" alt="extra"></button></th>
+        <th><button onclick="loadCapsem('shock')"><img src="capsem/shock.png" width="50" height="50" alt="shock"></button></th>
+        <th><button onclick="loadCapsem('panic')"><img src="capsem/panic.png" width="50" height="50" alt="panic"></button></th>
+</table>
+
+<br>
+
+<table class="center" id="box2">
+  <tr>
+    <th id="name" colspan="2" style="color: red; font-size: 500%; text-align: center;">
+      Extra
+    </th>
+  </tr>
+  <tr>
+    <th id="capsem">
+      <img src="capsem/extra.png" width="200" height="200" alt="Extra capsem">
+    </th>
+    <th id="render">
+      <img src="render/extra.png" alt="Lord name">
+    </th>
+  </tr>
+  <tr>
+    <th id="capsem_gif" colspan="2" style="text-align: center;">
+      <img src="capsem/gif/extra.gif" width="250" height="250" alt="lord gif">
+    </th>
+  </tr>
+  <tr>
+    <th id="info" colspan="2" style="font-size: 1.5em; line-height: 1.5;">
+      Lord info here
+    </th>
+  </tr>
+  <tr>
+    <th id="extra" colspan="2"></th>
+  </tr>
+  <tr>
+    <th id="extraimg" colspan="2"></th>
+  </tr>
+</table>
+
+<script type="text/javascript" src="lord_button.js"></script>
 <p style="text-align:center;">This site is devoted to celebrating Kamen Rider Zeztz, the acclaimed series produced by Toei.</p>
+</head>
 </body>
 </html>

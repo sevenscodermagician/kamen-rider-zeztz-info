@@ -139,3 +139,5 @@ const capsemData = {
 
 function loadriver(num){
 }
+
+loadCapsem("impact")
