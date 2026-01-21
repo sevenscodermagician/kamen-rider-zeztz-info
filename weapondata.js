@@ -101,7 +101,9 @@ function noxloadWeapon(key) {
     info.innerHTML = data.info || "";
 
     const box = document.getElementById('box4');
+    const box2 = document.getElementById('box5');
     box.style.borderImage = data.gradient ;
+    box2.style.borderImage = data.gradient ;
 }
 
 const noxweapondata = {

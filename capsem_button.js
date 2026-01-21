@@ -179,27 +179,27 @@ const capsemData = {
         name: "Extra",
         color: "purple",
         info: "Extra used by 3 to transform into Lord 3",
-        gradient:"linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(218, 218, 218, 1)) 1"
+        gradient:"linear-gradient(90deg, purple, rgb(41, 2, 66)) 1"
     },
     shock: {
         key: "shock",
         name: "Shock",
         color: "yellow",
         info: "Shock used by 5 to transform into Lord 5",
-        gradient:"linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(218, 218, 218, 1)) 1"
+        gradient:"linear-gradient(90deg, yellow, rgb(119, 107, 2)) 1"
     },
     panic: {
         key: "panic",
         name: "Panic",
         color: "blue",
         info: "Panic used by 6 to transform into Lord 6",
-        gradient:"linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(218, 218, 218, 1)) 1"
+        gradient:"linear-gradient(90deg, darkblue, rgb(0, 7, 99)) 1"
     },
     clear: {
         key: "clear",
         name: "Clear",
         color: "magenta",
         info: "Clear",
-        gradient:"linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(218, 218, 218, 1)) 1"
+        gradient:"linear-gradient(90deg, magenta, rgb(136, 0, 118)) 1"
     }
 };
