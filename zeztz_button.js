@@ -135,6 +135,20 @@ const capsemData = {
         info: "Booster is zeztz second powerup and giving the ability to boost zeztz abilites (mainly used with plasma)",
         gradient:"linear-gradient(90deg, white, wheat) 1"
     },
+    catastrom: {
+        key: "catastrom",
+        name: "Catastrom",
+        color: "orange",
+        info: "",
+        gradient:"linear-gradient(90deg, orange, rgb(216, 159, 2)) 1"
+    },
+    orderm: {
+        key: "orderm",
+        name: "Orderm",
+        color: "blue",
+        info: "",
+        gradient:"linear-gradient(90deg, blue, darkblue) 1"
+    },
 };
 
 function loadriver(num){
