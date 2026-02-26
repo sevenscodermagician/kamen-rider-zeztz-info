@@ -146,7 +146,7 @@ const capsemData = {
         info: `
             Zeztz 2nd power up with two form one for strength and one for speed i wonder where this was seen before
             <br>
-            <img src="../blog/image/gochipod.png">
+            <img src="../capsem/gochipod.png">
         `,
         gradient:"linear-gradient(90deg, orange, blue) 1"
     },
