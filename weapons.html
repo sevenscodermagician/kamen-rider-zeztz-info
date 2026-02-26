@@ -37,6 +37,13 @@ table, th, td {
   border: 5px solid;
   border-image: linear-gradient(90deg, white, orange) 1;
 }
+.lordcenter {
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, rgb(150, 2, 2), rgb(133, 2, 2)) 1;
+}
 .button {
   background-color: #00ff80;
   border: none;
@@ -70,10 +77,7 @@ table, th, td {
 </style>
 <title>Weapons Info</title>
 <a href="index.html" class="button"style="background-color: black; color: yellow;">Home</a>
-<a href="zeztz_forms.html" class="button">Zeztz forms</a>
-<a href="nox_knight_forms.html" style="background-color: white; color: gold;" class="button ">Nox forms</a>
-<a href="lord_forms.html" style="background-color: darkred; color: gold;" class="button ">Lord forms</a>
-
+<a href="rider_form_button.html" class="button">Forms</a>
 <a href="capsem.html" style="color:gray; background-color: black;" class="button">Capsems</a>
 <a href="enemies.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255);" class="button">Nightmares</a>
 <a href="blog/blog.html" style="background-color:rgb(44, 44, 44);color:rgba(51, 255, 0, 0.712)" class="button"> blog</a>
@@ -154,6 +158,33 @@ table, th, td {
     <th>Standard phone provided to most CODE agents expect for Agent 7 nox used to have one but threw it away after betraying CODE</th>
 </table>
 <br>
+
+<br>
+<hr style="margin: 0; border: none; height: 2px; background-color: rgb(44, 1, 1);" id="line">
+<p style="text-align:center; color:rgb(44, 1, 1);">Lord's Gears/weapons</p>
+
+<div class="lordcenter">
+<table class="lordcenter" id="box6">
+    <tr>
+        <th><button onclick="lordloadWeapon('blade')"><img src="weapon/breakam_breaker_blade.png" width="100" height="100" alt="caliber"></button></th>
+        <th><button onclick="lordloadWeapon('knuckle')"><img src="weapon/breakam_breaker_knuckle.png" width="100" height="100" alt="launcher"></button></th>
+        <th><button onclick="lordloadWeapon('shoot')"><img src="weapon/breakam_breaker_shoot.png" width="100" height="100" alt="launcher"></button></th>
+    </tr>
+</table>
+<p id="lordweaponname" style="color: rgb(44, 1, 1);">Placeholder</p>
+<p id="lordweaponimage"><img src="weapon/placeholder.png" alt="sword" width="300" height="300"></p>
+<p id="lordweaponinfo">placeholder</p>
+</div>
+<br>
+<table class="lordcenter" id="box7">
+  <tr>
+    <th><img src="weapon/CODE_phone.png" alt="CODE phone"> </th>
+  </tr>
+  <tr>
+    <th>Standard phone provided to most CODE agents</th>
+</table>
+<br>
+
 
 <script type="text/javascript" src="weapondata.js"></script>
 <p style="text-align:center;">This site is devoted to celebrating Kamen Rider Zeztz, the acclaimed series produced by Toei.</p>

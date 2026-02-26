@@ -143,14 +143,18 @@ const capsemData = {
         key: "dualmare",
         name: "Dualmare",
         color: "orange",
-        info: "",
+        info: `
+            Zeztz 2nd power up with two form one for strength and one for speed i wonder where this was seen before
+            <br>
+            <img src="../blog/image/gochipod.png">
+        `,
         gradient:"linear-gradient(90deg, orange, blue) 1"
     },
     void: {
         key: "void",
         name: "Void",
         color: "black",
-        info: "a capsem that had it abilites erase by Nox Knight",
+        info: "a capsem that had it abilites erased by the capsem of the same name also known as Erase Capsem",
         gradient:"linear-gradient(90deg, black, black) 1"
     },
     shadow: {
@@ -208,5 +212,12 @@ const capsemData = {
         color: "magenta",
         info: "Clear",
         gradient:"linear-gradient(90deg, magenta, rgb(136, 0, 118)) 1"
+    },
+    punish: {
+        key: "punish",
+        name: "Punish",
+        color: "magenta",
+        info: "Punish use by Kamen Rider Dawn and their main capsem",
+        gradient:"linear-gradient(90deg, magenta, rgb(105, 1, 91)) 1"
     }
 };

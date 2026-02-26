@@ -122,3 +122,46 @@ const noxweapondata = {
         gradient:"linear-gradient(90deg, white, orange) 1"
     }
 };
+
+function lordloadWeapon(key){
+    var data = lordweaponinfoweapondata[key];
+    if (!data) return;
+
+    var name = document.getElementById("lordweaponname");
+    var weapon = document.getElementById("lordweaponimage");
+    var info = document.getElementById("lordweaponinfo");
+
+    name.innerHTML = data.name;
+    name.style.color = data.color;
+    weapon.innerHTML = `<img src="weapon/${data.key}.png" width="300" height="300" alt="${data.key}">`;
+    info.innerHTML = data.info || "";
+
+    const box = document.getElementById('box6');
+    const box2 = document.getElementById('box7');
+}
+
+const lordweaponinfoweapondata = {
+    blade: {
+        key: "breakam_breaker_blade",
+        name: "Breakam Breaker Blade Mode",
+        color: "rgb(167, 0, 117)",
+        info: "used mainly by Lord Three it a retool version of Breakam Zeztzer",
+    },
+    knuckle: {
+        key: "breakam_breaker_knuckle",
+        name: "Breakam Breaker Knuckle Mode",
+        color: "rgb(167, 0, 117)",
+        info: "used mainly by Lord Five it a retool version of Breakam Zeztzer",
+    },
+    shoot: {
+        key: "breakam_breaker_shoot",
+        name: "Breakam Breaker Shoot Mode",
+        color: "rgb(167, 0, 117)",
+        info: "used mainly by Lord Six it a retool version of Breakam Zeztzer",
+    },
+};
+
+
+loadWeapon("sword")
+noxloadWeapon("breakam_buster")
+lordloadWeapon("blade")

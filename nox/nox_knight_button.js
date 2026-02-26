@@ -63,15 +63,15 @@ function loadCapsem(key) {
     extraimg.innerHTML = data.extraimg || "";
 
     capsem.innerHTML = `
-        <img src="capsem/${data.key}.png" width="200" height="200" alt="${data.key} capsem">
+        <img src="../capsem/${data.key}.png" width="200" height="200" alt="${data.key} capsem">
     `;
 
     render.innerHTML = `
-        <img src="render/${data.key}.png" alt="${data.name} render">
+        <img src="../render/${data.key}.png" alt="${data.name} render">
     `;
 
     capsemGif.innerHTML = `
-        <img src="capsem/gif/${data.key}.gif" width="250" height="250" alt="${data.key} gif">
+        <img src="../capsem/gif/${data.key}.gif" width="250" height="250" alt="${data.key} gif">
     `;
 
     // Reset styles
@@ -105,7 +105,7 @@ function loadtable(num) {
                 <tr>
                     <th>
                         <button onclick="loadCapsem('erase')">
-                            <img src="capsem/erase.png" width="50" height="50" alt="erase">
+                            <img src="../capsem/erase.png" width="50" height="50" alt="erase">
                         </button>
                     </th>
                 </tr>
@@ -118,13 +118,13 @@ function loadtable(num) {
                 <tr>
                     <th>
                         <button onclick="loadCapsem('shadow')">
-                            <img src="capsem/shadow.png" width="50" height="50" alt="shadow">
+                            <img src="../capsem/shadow.png" width="50" height="50" alt="shadow">
                         </button>
                         <button onclick="loadCapsem('gun')">
-                            <img src="capsem/gun.png" width="50" height="50" alt="gun">
+                            <img src="../capsem/gun.png" width="50" height="50" alt="gun">
                         </button>
                         <button onclick="loadCapsem('wolf')">
-                            <img src="capsem/wolf.png" width="50" height="50" alt="wolf">
+                            <img src="../capsem/wolf.png" width="50" height="50" alt="wolf">
                         </button>
                     </th>
                 </tr>
