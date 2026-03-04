@@ -144,9 +144,9 @@ const capsemData = {
         name: "Dualmare",
         color: "orange",
         info: `
-            Zeztz 2nd power up with two form one for strength and one for speed i wonder where this was seen before
+            Zeztz 2nd power up with two form one for strength and one for speed it is also used as a Drone during Zeztz Rider Kick
             <br>
-            <img src="../capsem/gochipod.png">
+            <img src="../capsem/dualmare_drone.png">
         `,
         gradient:"linear-gradient(90deg, orange, blue) 1"
     },
