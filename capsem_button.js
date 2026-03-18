@@ -146,7 +146,7 @@ const capsemData = {
         info: `
             Zeztz 2nd power up with two form one for strength and one for speed it is also used as a Drone during Zeztz Rider Kick
             <br>
-            <img src="../capsem/dualmare_drone.png">
+            <img src="../capsem/dualmare_drone.png" width=500 height=450>
         `,
         gradient:"linear-gradient(90deg, orange, blue) 1"
     },

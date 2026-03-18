@@ -15,6 +15,8 @@ function legendcapsem(key) {
 }
 
 const capsemData = {
+
+    // ===== SHOWA =====
     ichigo: {
         key: "ichigo",
         name: "Ichigo",
@@ -105,23 +107,45 @@ const capsemData = {
         color: "lightgreen",
         info: "A Kamen Rider capable of growing to gigantic size."
     },
+
+    // ===== HEISEI PHASE 1 =====
     kuuga: {
         key: "kuuga",
         name: "Kuuga",
         color: "red",
         info: "Kuuga the first heisei rider begining the riders once again"
     },
+    kuuga_ultimate: {
+        key: "kuuga_ultimate",
+        name: "Kuuga Ultimate Form",
+        color: "black",
+        info: "{fix later}"
+    },
+
     agito: {
         key: "agito",
         name: "Agito",
         color: "yellow",
         info: "agito is the rider to come after kuuga and originally plan to be a sequal to kuuga."
     },
+    agito_shining: {
+        key: "agito_shining",
+        name: "Agito Shining Form",
+        color: "red",
+        info: "{fix later}"
+    },
+
     ryuki: {
         key: "ryuki",
         name: "Ryuki",
         color: "red",
         info: "facing a mirror with an Advent Deck your able to transform and enter the mirror world as Masked Rider Ryuki"
+    },
+    ryuki_survive: {
+        key: "ryuki_survive",
+        name: "Ryuki Survive Form",
+        color: "red",
+        info: "{fix later}"
     },
     knight: {
         key: "knight",
@@ -135,6 +159,7 @@ const capsemData = {
         color: "purple",
         info: "facing a mirror with an Advent Deck your able to transform and enter the mirror world as Masked Rider Ouja"
     },
+
     faiz: {
         key: "faiz",
         name: "Faiz",
@@ -146,6 +171,12 @@ const capsemData = {
         name: "Faiz Axel Form",
         color: "red",
         info: "an upgrade form for faiz that gives them the ability to go fast but only for 10 seconds"
+    },
+    faiz_blaster: {
+        key: "faiz_blaster",
+        name: "Faiz Blaster Form",
+        color: "red",
+        info: "{fix later}"
     },
     kaixa: {
         key: "kaixa",
@@ -159,11 +190,18 @@ const capsemData = {
         color: "white",
         info: "a belt with multiple user whoever use this belt will become Masked Rider Delta"
     },
+
     blade: {
         key: "blade",
         name: "Blade",
         color: "rgba(0, 38, 255, 1)",
         info: "the first rider to have the gimmick of cards"
+    },
+    blade_king: {
+        key: "blade_king",
+        name: "Blade King Form",
+        color: "yellow",
+        info: "{fix later}"
     },
     garren: {
         key: "garren",
@@ -177,23 +215,44 @@ const capsemData = {
         color: "rgba(209, 6, 6, 1)",
         info: "Chalice is not a traditional Masked Riderbut rather the form of the Mantis Undead taken on by the Joker Undead as per his abilities."
     },
+
     hibiki: {
         key: "hibiki",
         name: "Hibiki",
         color: "purple",
         info: "The oni rider the rider who had a different producer mid way in the series"
     },
+    hibiki_armed: {
+        key: "hibiki_armed",
+        name: "Hibiki Armed",
+        color: "purple",
+        info: "{fix later}"
+    },
+
     kabuto: {
         key: "kabuto",
         name: "Kabuto",
         color: "red",
         info: "the beetle rider who only have 1 other form being the final form kabuto speed matches faiz axel speed."
     },
+    kabuto_hyper: {
+        key: "kabuto_hyper",
+        name: "Kabuto Hyper",
+        color: "red",
+        info: "{fix later}"
+    },
+
     deno: {
         key: "den-o",
         name: "Den-o",
         color: "red",
         info: "The Time Traveller rider Masked Rider Den-o with the denliner den-o can go to any time with a ticket"
+    },
+    den_o_liner: {
+        key: "den-o_liner",
+        name: "Den-O Liner Form",
+        color: "red",
+        info: "{fix later}"
     },
     zeronos: {
         key: "zeronos",
@@ -201,11 +260,18 @@ const capsemData = {
         color: "green",
         info: "The Time Traveller rider Masked Rider that no one remembers Zeronos!"
     },
+
     kiva: {
         key: "kiva",
         name: "Kiva",
         color: "yellow",
         info: "the vampire rider"
+    },
+    kiva_emperor: {
+        key: "kiva_emperor",
+        name: "Kiva Emperor",
+        color: "gold",
+        info: "{fix later}"
     },
     ixa: {
         key: "ixa",
@@ -213,11 +279,18 @@ const capsemData = {
         color: "white",
         info: "kiva secondary rider who fully human KAMEN RIDER IXA!"
     },
+
     decade: {
         key: "decade",
         name: "Decade",
         color: "magenta",
         info: "decade the 10th heisei rider the one who said to be the Destoryer of worlds with the ability to become any rider before them"
+    },
+    decade_complete: {
+        key: "decade_complete",
+        name: "Decade Complete",
+        color: "magenta",
+        info: "{fix later}"
     },
     diend: {
         key: "diend",
@@ -231,6 +304,8 @@ const capsemData = {
         color: "red",
         info: "Kuuga the first heisei rider and decade tertiary rider"
     },
+
+    // ===== HEISEI PHASE 2 =====
     double: {
         key: "double",
         name: "Double",
@@ -242,6 +317,12 @@ const capsemData = {
         name: "Double Fang Joker",
         color: "white",
         info: 'Double power up form the berserk form'
+    },
+    double_extreme: {
+        key: "double_extreme",
+        name: "Double Extreme",
+        color: "silver",
+        info: "{fix later}"
     },
     accel: {
         key: "accel",
@@ -267,11 +348,18 @@ const capsemData = {
         color: "rgba(252, 250, 221, 1)",
         info: 'with a lost driver and the eternal memory kamen rider eternal is possible or even the proto/base form before it name Red Flare'
     },
+
     ooo: {
         key: "ooo",
         name: "ooo",
         color: "red",
         info: "using 3 core medals a head, torso and leg medal that given from their best friend Ankh allow eiji to become Kamen Rider ooo"
+    },
+    ooo_putotyra: {
+        key: "ooo_putotyra",
+        name: "OOO Putotyra",
+        color: "purple",
+        info: "{fix later}"
     },
     birth: {
         key: "birth",
@@ -279,29 +367,57 @@ const capsemData = {
         color: "DarkGreen",
         info: "the kamen rider that uses cell medals to access weapons or even finisher anyone can be kamen rider birth so HAPPY BIRTHDAY!"
     },
+
     fourze: {
         key: "fourze",
         name: "Fourze",
         color: "whitesmoke",
         info: 'the space kamen rider and the last one in the "number theory" before most people beileve that to not be true'
     },
+    fourze_cosmic: {
+        key: "fourze_cosmic",
+        name: "Fourze Cosmic",
+        color: "blue",
+        info: "{fix later}"
+    },
+
     wizard: {
         key: "wizard",
         name: "Wizard",
         color: "red",
         info: "thanks to the phantom isnisde off wizard they can use magic stone that get converted into rings to use MAGIC for abilites or transformation"
     },
+    wizard_infinity: {
+        key: "wizard_infinity",
+        name: "Wizard Infinity",
+        color: "cyan",
+        info: "{fix later}"
+    },
+
     gaim: {
         key: "gaim",
         name: "Gaim",
         color: "orange",
         info: "Gaim the orange samurai!"
     },
+    gaim_kiwami_arms: {
+        key: "gaim_kiwami_arms",
+        name: "Gaim Kiwami Arms",
+        color: "white",
+        info: "{fix later}"
+    },
+
     drive: {
         key: "drive",
         name: "Drive",
         color: "red",
         info: 'Drive the rider who can create "slowdowns"'
+    },
+    drive_tridoron: {
+        key: "drive_tridoron",
+        name: "Drive Tridoron",
+        color: "red",
+        info: "{fix later}"
     },
     mach: {
         key: "mach",
@@ -309,18 +425,33 @@ const capsemData = {
         color: "white",
         info: 'Tracking... terminating... both done at Mach speed! Kamen Rider... Mach!'
     },
+
     ghost: {
         key: "ghost",
         name: "Ghost",
         color: "orangered",
         info: "the ghost rider! GHOST!"
     },
+    ghost_mugen: {
+        key: "ghost_mugen",
+        name: "Ghost Mugen",
+        color: "orange",
+        info: "{fix later}"
+    },
+
     exaid: {
         key: "ex-aid",
         name: "Ex-aid",
         color: "violet",
         info: "the number one gamer!"
     },
+    ex_aid_muteki: {
+        key: "ex-aid_muteki",
+        name: "Ex-Aid Muteki",
+        color: "yellow",
+        info: "{fix later}"
+    },
+
     build: {
         key: "build",
         name: "Build",
@@ -332,6 +463,12 @@ const capsemData = {
         name: "Build hazard Rabbit Tank",
         color: "black",
         info: "Build power up allowing them to access Build Hazard form with the ability to use any bestmatch to access hazard form but like build uses rabbit and tank as the base"
+    },
+    build_genius: {
+        key: "build_genius",
+        name: "Build Genius",
+        color: "white",
+        info: "{fix later}"
     },
     crossz: {
         key: "cross-z",
@@ -345,17 +482,32 @@ const capsemData = {
         color: "gold",
         info: "the Tertiary rider for build using a new driver that was made to be stronger then build {add rest}"
     },
+
     zio: {
         key: "zi-o",
         name: "Zi-o",
         color: "magenta",
         info: "Iwea Zi-o the 20th heisei rider the demon king himself! the one that will control the past, present and future!"
     },
+    grand_zio: {
+        key: "grand_zi-o",
+        name: "Grand Zi-O",
+        color: "gold",
+        info: "{fix later}"
+    },
+
+    // ===== REIWA =====
     zeroone: {
         key: "zero-one",
         name: "Zero-One",
         color: "yellow",
         info: "The first rewia rider kamen rider ZERO-ONE"
+    },
+    zero_two: {
+        key: "zero_two",
+        name: "Zero-Two",
+        color: "red",
+        info: "{fix later}"
     },
     zeroonealt: {
         key: "zero-one_alt",
@@ -363,23 +515,63 @@ const capsemData = {
         color: "yellow",
         info: "this is the Original Capsem gif for the zero-one capsem which goes unused and replace with the newer one"
     },
+
     saber: {
         key: "saber",
         name: "Saber",
         color: "red",
         info: "The rider that battles with book kamen rider SABER!"
     },
+    xcross_saber: {
+        key: "xcross_saber",
+        name: "Xross Saber",
+        color: "blue",
+        info: "{fix later}"
+    },
+
     revice: {
         key: "revice",
         name: "Revice",
         color: "pink",
         info: "Kamen Rider Revi and the devil Kamen Rider Vice the 2 in 1 rider"
     },
+    revi: {
+        key: "revi",
+        name: "Revi",
+        color: "pink",
+        info: "Kamen Rider Revi the 2 in 1 rider"
+    },
+    ultimate_revi: {
+        key: "ultimate_revi",
+        name: "Ultimate Revi",
+        color: "pink",
+        info: "{fix later}"
+    },
+    vice: {
+        key: "vice",
+        name: "Vice",
+        color: "purple",
+        info: "Kamen Rider Vice the 2 in 1 rider"
+    },
+    ultimate_vice: {
+        key: "ultimate_vice",
+        name: "Ultimate Vice",
+        color: "purple",
+        info: "{fix later}"
+    },
+    
+
     geats: {
         key: "geats",
         name: "Geats",
         color: "whitesmoke",
         info: "one off the fighter in the Desire Grand Prix using 2 raise buckle to access their base form and the one to cause Daybreak timeline in Gotchard"
+    },
+    geats_IX: {
+        key: "geats_IX",
+        name: "Geats IX",
+        color: "white",
+        info: "{fix later}"
     },
     tycoon: {
         key: "tycoon",
@@ -393,11 +585,18 @@ const capsemData = {
         color: "purple",
         info: "one off the fighter in the Desire Grand Prix using 1 raise buckle to access their base form"
     },
+
     gotchard: {
         key: "gotchard",
         name: "Gotchard",
         color: "cyan",
         info: "With the gotchadriver the rider can combine 2 chemy into 1 becoming Kamen Rider Gotchard"
+    },
+    rainbow_gotchard: {
+        key: "rainbow_gotchard",
+        name: "Rainbow Gotchard",
+        color: "gold",
+        info: "{fix later}"
     },
     majade: {
         key: "majade",
@@ -405,17 +604,31 @@ const capsemData = {
         color: "rgba(255, 136, 1, 1)",
         info: "majade"
     },
+
     legend: {
         key: "legend",
         name: "Legend",
         color: "yellow",
         info: "The rewia decade now let make things GORGEOUS"
     },
+
     gavv: {
         key: "gavv",
         name: "Gavv",
         color: "purple",
         info: "Gavv the rider before zeztz who half Granute and half Human using the power off sweets to transform"
+    },
+    gavv_valen: {
+        key: "gavv_valen",
+        name: "Gavv Valen",
+        color: "brown",
+        info: "{fix later}"
+    },
+    gavv_master: {
+        key: "gavv_master",
+        name: "Gavv Master Mode",
+        color: "purple",
+        info: "{fix later}"
     },
     valen: {
         key: "valen",
@@ -435,10 +648,55 @@ const capsemData = {
         color: "rgba(212, 0, 255, 1)",
         info: "Gochizo the gimmick item that the riders in Gavv uses to transform"
     },
+
     gozyuger: {
         key: "gozyuger",
         name: "Gozyuger",
         color: "red",
         info: "gozyuger is the 50th sentai team and the final sentai for a while"
     },
+
+    zeztz: {
+        key: "zeztz",
+        name: "Zeztz",
+        color: "red",
+        info: "based off Kamen Rider Zeztz this capsem give the user the power of Impact Form"
+    },
+    zeztz_catastrom: {
+        key: "zeztz_catastrom",
+        name: "Zeztz Catastrom",
+        color: "orange",
+        info: "based of Catastrom Form this capsem will make the generic kamen rider transformation"
+    },
+    zeztz_capsem: {
+        key: "zeztz_capsem",
+        name: "Zeztz (Capsem Ver)",
+        color: "red",
+        info: "came with the DX capsem Dropper"
+    },
+    zeztz_fashion: {
+        key: "zeztz_fashion",
+        name: "Zeztz (Fashion Ver)",
+        color: "red",
+        info: "came with a T-Shirt"
+    },
+    zeztz_sweets: {
+        key: "zeztz_sweets",
+        name: "Zeztz (Sweets Ver)",
+        color: "red",
+        info: "came with a pack of sweets"
+    },
+    zeztz_singing: {
+        key: "zeztz_singing",
+        name: "Zeztz (Singing Ver)",
+        color: "darkblue",
+        info: "a bonus item for buying Vision CD"
+    },
+    zeztz_charadeco: {
+        key: "zeztz_charadeco",
+        name: "Zeztz (Charadeco Ver)",
+        color: "red",
+        info: "came with the Zeztz Cake"
+    }
+
 };
