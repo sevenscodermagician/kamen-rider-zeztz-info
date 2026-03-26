@@ -671,7 +671,7 @@ const capsemData = {
     zeztz_capsem: {
         key: "zeztz_capsem",
         name: "Zeztz (Capsem Ver)",
-        color: "red",
+        color: "brown",
         info: "came with the DX capsem Dropper"
     },
     zeztz_fashion: {
@@ -683,7 +683,7 @@ const capsemData = {
     zeztz_sweets: {
         key: "zeztz_sweets",
         name: "Zeztz (Sweets Ver)",
-        color: "red",
+        color: "brown",
         info: "came with a pack of sweets"
     },
     zeztz_singing: {
@@ -697,6 +697,12 @@ const capsemData = {
         name: "Zeztz (Charadeco Ver)",
         color: "red",
         info: "came with the Zeztz Cake"
+    },
+    zeztz_book: {
+        key: "zeztz_book",
+        name: "Zeztz (Telemaga Ver)",
+        color: "green",
+        info: "came with the tv-kun"
     }
 
 };

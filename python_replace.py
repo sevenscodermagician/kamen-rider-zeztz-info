@@ -3,8 +3,8 @@ import os
 folder_path = os.getcwd()
 
 # Old and new lines
-old_line_1 = 'Masekd'
-new_line_1 = 'Masked'
+old_line_1 = '<a href="../zeztz_forms.html" class="button">Zeztz forms</a>'
+new_line_1 = ''
 
 old_line_2 = ''
 new_line_2 = ''
