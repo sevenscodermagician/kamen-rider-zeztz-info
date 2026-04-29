@@ -139,6 +139,13 @@ const capsemData = {
         info: "a capsem with the ability to boost zeztz forms and the power source of the Zeroider",
         gradient:"linear-gradient(90deg, white, wheat) 1"
     },
+    lord_booster: {
+        key: "lord_booster",
+        name: "Lord Booster",
+        color: "rainbow",
+        info: "a capsem with the ability to boost Lord 3",
+        gradient:"linear-gradient(90deg, white, wheat) 1"
+    },
     dualmare: {
         key: "dualmare",
         name: "Dualmare",
@@ -149,6 +156,13 @@ const capsemData = {
             <img src="../capsem/dualmare_drone.png" width=500 height=450>
         `,
         gradient:"linear-gradient(90deg, orange, blue) 1"
+    },
+    exdreamrise: {
+        key: "exdreamrise",
+        name: "Exdreamrise",
+        color: "rainbow",
+        info: "Final Form Capsem",
+        gradient:"linear-gradient(90deg, wheat, wheat) 1"
     },
     void: {
         key: "void",
@@ -219,5 +233,12 @@ const capsemData = {
         color: "magenta",
         info: "Punish use by Kamen Rider Dawn and their main capsem",
         gradient:"linear-gradient(90deg, magenta, rgb(105, 1, 91)) 1"
+    },
+    darkness: {
+        key: "darkness",
+        name: "Darkness",
+        color: "black",
+        info: "Darkness use by Kamen Rider Black Zeztz",
+        gradient:"linear-gradient(90deg, black, rgb(25, 25, 25)) 1"
     }
 };

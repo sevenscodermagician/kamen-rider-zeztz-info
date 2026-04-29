@@ -19,7 +19,6 @@ function loadCapsem(key) {
     extraimg.innerHTML = data.extraimg || "";
     capsem_gif.innerHTML = `<img src="../capsem/gif/${data.key}.gif" alt="${data.key}.gif" width="250" height="250">`;
 
-
     const box = document.getElementById('box');
     const box2 = document.getElementById('box2');
     const driverbox = document.getElementById('driverbox');
@@ -30,7 +29,6 @@ function loadCapsem(key) {
         name.style.backgroundRepeat = "no-repeat";
         name.style.webkitBackgroundClip = "text";
         name.style.webkitTextFillColor = "transparent";
-
 
         const rainbowGradient = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
         box.style.borderImage = rainbowGradient + " 1";
@@ -149,9 +147,48 @@ const capsemData = {
         info: "",
         gradient:"linear-gradient(90deg, blue, darkblue) 1"
     },
+    exdreamrise: {
+        key: "exdreamrise",
+        name: "Exdreamrise",
+        color: "rainbow",
+        info: "The Exdreamrise form represents the peak of Zeztz power.",
+        gradient:"linear-gradient(90deg, wheat, wheat) 1"
+    }
 };
 
-function loadriver(num){
+function loaddriver(driver) {
+    const box = document.getElementById("box");
+
+    if (driver === 0) {
+        box.innerHTML = `
+            <tr>
+                <th><button onclick="loadCapsem('impact')"><img src="../capsem/impact.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('transform')"><img src="../capsem/transform.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('wing')"><img src="../capsem/wing.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('stream')"><img src="../capsem/stream.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('machinery')"><img src="../capsem/machinery.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('projection')"><img src="../capsem/projection.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('recovery')"><img src="../capsem/recovery.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('barrier')"><img src="../capsem/barrier.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('wonder')"><img src="../capsem/wonder.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('gravity')"><img src="../capsem/gravity.png" width="50" height="50"></button></th>
+            </tr>
+            <tr>
+                <th><button onclick="loadCapsem('plasma')"><img src="../capsem/plasma.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('booster')"><img src="../capsem/booster.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('catastrom')"><img src="../capsem/catastrom.png" width="50" height="50"></button></th>
+                <th><button onclick="loadCapsem('orderm')"><img src="../capsem/orderm.png" width="50" height="50"></button></th>
+            </tr>
+        `;
+        loadCapsem("impact");
+    } else if (driver === 1) {
+        box.innerHTML = `
+            <tr>
+                <th><button onclick="loadCapsem('exdreamrise')"><img src="../capsem/exdreamrise.png" width="50" height="50"></button></th>
+            </tr>
+        `;
+        loadCapsem("exdreamrise");
+    }
 }
 
-loadCapsem("impact")
+loaddriver(0);

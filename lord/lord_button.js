@@ -19,6 +19,11 @@ function loadCapsem(key) {
     extraimg.innerHTML = data.extraimg || "";
     capsem_gif.innerHTML = `<img src="../capsem/gif/${data.key}.gif" alt="${data.key}.gif" width="250" height="250">`;
 
+    if (key == "extra"){
+        loadtable(1)
+    }else{
+        loadtable(0)
+    }
 
     const box = document.getElementById('box');
     const box2 = document.getElementById('box2');
@@ -69,10 +74,44 @@ const capsemData = {
         color: "darkblue",
         info: "Panic is used mainly by lord 6",
         gradient:"linear-gradient(90deg, darkblue, rgb(0, 7, 99)) 1"
+    },
+    lord_booster: {
+        key: "lord_booster",
+        name: "Lord Booster",
+        color: "rainbow",
+        info: "Lord Booster is used mainly used by Lord 3 and increase lord 3 power",
+        gradient:"linear-gradient(90deg, purple, rgb(41, 2, 66)) 1"
     }
 };
 
 function loadriver(num){
+}
+
+function loadtable(num) {
+    const box = document.getElementById("box");
+
+    if (num === 1) {
+        box.innerHTML = `
+        <table class="center" id="box">
+            <tr>
+                <th><button onclick="loadCapsem('extra')"><img src="../capsem/extra.png" width="50" height="50" alt="extra"></button></th>
+                <th><button onclick="loadCapsem('lord_booster')"><img src="../capsem/lord_booster.png" width="50" height="50" alt="Lord Booster"></button></th>
+                <th><button onclick="loadCapsem('shock')"><img src="../capsem/shock.png" width="50" height="50" alt="shock"></button></th>
+                <th><button onclick="loadCapsem('panic')"><img src="../capsem/panic.png" width="50" height="50" alt="panic"></button></th>
+            </tr>
+        </table>
+        `;
+    } else {
+        box.innerHTML = `
+        <table class="center" id="box">
+            <tr>
+                <th><button onclick="loadCapsem('extra')"><img src="../capsem/extra.png" width="50" height="50" alt="extra"></button></th>
+                <th><button onclick="loadCapsem('shock')"><img src="../capsem/shock.png" width="50" height="50" alt="shock"></button></th>
+                <th><button onclick="loadCapsem('panic')"><img src="../capsem/panic.png" width="50" height="50" alt="panic"></button></th>
+            </tr>
+        </table>
+        `;
+    }
 }
 
 loadCapsem('extra')

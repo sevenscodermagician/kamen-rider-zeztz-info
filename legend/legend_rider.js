@@ -6,12 +6,43 @@ function legendcapsem(key) {
     var capsem = document.getElementById("capsem");
     var info = document.getElementById("info");
     var capsem_gif = document.getElementById("capsem_gif");
+    
+    // Elements for border gradients
+    const box = document.getElementById('box');
+    const box2 = document.getElementById('box2');
+    const driverbox = document.getElementById('driverbox');
 
     name.innerHTML = data.name;
-    name.style.color = data.color;
+    // Legend pathing for images
     capsem.innerHTML = `<img src="../capsem/legend/${data.key}.png" width="200" height="200" alt="${data.key} capsem">`;
     info.innerHTML = data.info || "";
-    capsem_gif.innerHTML = `<img src="../capsem/legend/gif/${data.key}.gif" alt="${data.key}.gif">`;
+    capsem_gif.innerHTML = `<img src="../capsem/legend/gif/${data.key}.gif" alt="${data.key}.gif" width="250" height="250">`;
+
+    if (data.color === "rainbow") {
+        // Text Rainbow Effect
+        name.style.backgroundImage = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
+        name.style.backgroundSize = "100%";
+        name.style.backgroundRepeat = "no-repeat";
+        name.style.webkitBackgroundClip = "text";
+        name.style.webkitTextFillColor = "transparent";
+
+        // Border Rainbow Effect
+        const rainbowGradient = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
+        box.style.borderImage = rainbowGradient + " 1";
+        box2.style.borderImage = rainbowGradient + " 1";
+        driverbox.style.borderImage = rainbowGradient + " 1";
+    } else {
+        // Reset Rainbow Text styles
+        name.style.background = "";
+        name.style.webkitBackgroundClip = "";
+        name.style.webkitTextFillColor = "";
+        name.style.color = data.color || "";
+
+        // Apply standard gradient or clear it
+        box.style.borderImage = data.gradient || "";
+        box2.style.borderImage = data.gradient || "";
+        driverbox.style.borderImage = data.gradient || "";
+    }
 }
 
 const capsemData = {
@@ -656,11 +687,88 @@ const capsemData = {
         info: "gozyuger is the 50th sentai team and the final sentai for a while"
     },
 
-    zeztz: {
-        key: "zeztz",
-        name: "Zeztz",
+    zeztz_impact: {
+        key: "zeztz_impact",
+        name: "Zeztz Impact",
         color: "red",
-        info: "based off Kamen Rider Zeztz this capsem give the user the power of Impact Form"
+        info: "based off Kamen Rider Zeztz Impact Form this capsem give the user the power of Impact Form"
+    },
+    zeztz_transform: {
+        key: "zeztz_transform",
+        name: "Zeztz Transform",
+        color: "orange",
+        info: "based off Kamen Rider Zeztz Transform Form this capsem give the user the power of Transform Form",
+        gradient: "linear-gradient(90deg, orange, orangered) 1"
+    },
+    zeztz_wing: {
+        key: "zeztz_wing",
+        name: "Zeztz Wing",
+        color: "rgb(255, 0, 119)",
+        info: "based off Kamen Rider Zeztz Wing Form this capsem give the user the power of Wing Form",
+        gradient: "linear-gradient(90deg, rgb(255, 0, 119), rgba(187, 4, 89, 1)) 1"
+    },
+    zeztz_stream: {
+        key: "zeztz_stream",
+        name: "Zeztz Stream",
+        color: "blue",
+        info: "based off Kamen Rider Zeztz Stream Form this capsem give the user the power of Stream Form",
+        gradient: "linear-gradient(90deg, blue, darkblue) 1"
+    },
+    zeztz_machinery: {
+        key: "zeztz_machinery",
+        name: "Zeztz Machinery",
+        color: "rgb(0, 255, 255)",
+        info: "based off Kamen Rider Zeztz Machinery Form this capsem give the user the power of Machinery Form",
+        gradient: "linear-gradient(90deg, rgb(0,255,255), rgba(0, 214, 214, 1)) 1"
+    },
+    zeztz_projection: {
+        key: "zeztz_projection",
+        name: "Zeztz Projection",
+        color: "rgba(0, 102, 255, 1)",
+        info: "based off Kamen Rider Zeztz Projection Form this capsem give the user the power of Projection Form",
+        gradient: "linear-gradient(90deg, rgba(0, 102, 255, 1), darkblue) 1"
+    },
+    zeztz_recovery: {
+        key: "zeztz_recovery",
+        name: "Zeztz Recovery",
+        color: "rgba(30, 255, 0, 1)",
+        info: "based off Kamen Rider Zeztz Recovery Form this capsem give the user the power of Recovery Form",
+        gradient: "linear-gradient(90deg, rgb(30,255,0), rgba(21, 180, 0, 1)) 1"
+    },
+    zeztz_barrier: {
+        key: "zeztz_barrier",
+        name: "Zeztz Barrier",
+        color: "rgba(136, 255, 0, 1)",
+        info: "based off Kamen Rider Zeztz Barrier Form this capsem give the user the power of Barrier Form",
+        gradient: "linear-gradient(90deg, rgb(136,255,0), rgba(0, 177, 59, 1)) 1"
+    },
+    zeztz_wonder: {
+        key: "zeztz_wonder",
+        name: "Zeztz Wonder",
+        color: "rgba(183, 0, 255, 1)",
+        info: "based off Kamen Rider Zeztz Wonder Form this capsem give the user the power of Wonder Form",
+        gradient: "linear-gradient(90deg, rgba(183, 0, 255, 1), MediumPurple) 1"
+    },
+    zeztz_gravity: {
+        key: "zeztz_gravity",
+        name: "Zeztz Gravity",
+        color: "rgba(153, 0, 255, 1)",
+        info: "based off Kamen Rider Zeztz Gravity Form this capsem give the user the power of Gravity Form",
+        gradient: "linear-gradient(90deg, rgba(153, 0, 255, 1), DarkSlateBlue) 1"
+    },
+    zeztz_plasma: {
+        key: "zeztz_plasma",
+        name: "Zeztz Plasma",
+        color: "yellow",
+        info: "based off Kamen Rider Zeztz Plasma Form this capsem give the user the power of Plasma Form",
+        gradient:"linear-gradient(90deg, yellow, gold) 1"
+    },
+    zeztz_booster: {
+        key: "zeztz_booster",
+        name: "Zeztz Plasma Booster",
+        color: "rainbow",
+        info: "based off Kamen Rider Zeztz Plasma Booster Form this capsem give the user the power of Plasma Booster Form",
+        gradient:"linear-gradient(90deg, white, wheat) 1"
     },
     zeztz_catastrom: {
         key: "zeztz_catastrom",

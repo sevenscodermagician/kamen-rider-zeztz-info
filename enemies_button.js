@@ -102,4 +102,10 @@ const enemydata = {
         color: "rgb(46, 1, 97)",
         info: "created by {} lingering resentment of {}"
     },
+    darkness: {
+        key: "darkness",
+        name: "Zeztz Darkness Nightmare",
+        color: "rgb(46, 1, 97)",
+        info: "created by zero lingering resentment of completeing Zeztz"
+    },
 };

@@ -11,146 +11,129 @@
     -moz-osx-font-smoothing: grayscale;
 ">
 <head>
-<link rel="icon" type="image/x-icon" href="../zeztzlogo.png">
+    <link rel="icon" type="image/x-icon" href="../zeztzlogo.png">
 
-<style>
-table, th, td {
-  border-style: none;
-}
+    <style>
+        table, th, td {
+            border-style: none;
+        }
 
-.center {
-  margin: auto;
-  width: 50%;
-  padding: 5px;
-  border: 5px solid;
-  border-image: linear-gradient(90deg, red, crimson) 1;
-}
+        .center {
+            margin: auto;
+            width: 50%;
+            padding: 5px;
+            border: 5px solid;
+            border-image: linear-gradient(90deg, red, crimson) 1;
+        }
 
-.button {
-  background-color: #00ff80;
-  border: none;
-  color: rgba(255, 0, 0, 0.897);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block; 
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
-}
+        .button {
+            background-color: #00ff80;
+            border: none;
+            color: rgba(255, 0, 0, 0.897);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block; 
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+        }
 
-.button:hover {
-  background-color: #00cc66;
-  transform: translateY(-3px) scale(1.05); 
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
+        .button:hover {
+            background-color: #00cc66;
+            transform: translateY(-3px) scale(1.05); 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
 
-.blog-container {
-  max-width: 900px;
-  margin: 40px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  text-align: left;
-  padding: 10px;
-}
-</style>
+        .blog-container {
+            max-width: 900px;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            text-align: left;
+            padding: 10px;
+        }
+    </style>
 
-<title>Rider Info</title>
-
-<!-- Navigation -->
-<a href="../rider_form_button.html" class="button">Back</a>
-<a href="../capsem.html" style="color:gray; background-color: black;" class="button">Capsems</a>
-<a href="../weapons.html" style="background-color: black; color: yellow;" class="button">weapon/gear</a>
-<a href="../enemies.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255);" class="button">Nightmares</a>
-<a href="../blog/blog.html" style="background-color:rgb(44, 44, 44);color:rgba(51, 255, 0, 0.712)" class="button">blog</a>
-<a href="../legendary_main.html" style="background-color: gold; color: yellow;" class="button">legend rider</a>
-
-<!-- Driver -->
-<table class="center" id="driverbox">
-<tr>
-<th>
-<button onclick="loadriver(0)">
-<img src="../driver/zeztz_driver.png" width="50" height="50" alt="zeztz driver">
-</button>
-</th>
-</tr>
-</table>
-
-<!-- Capsem buttons -->
-<table class="center" id="box">
-<tr>
-<th><button onclick="loadCapsem('impact')"><img src="../capsem/impact.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('transform')"><img src="../capsem/transform.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('wing')"><img src="../capsem/wing.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('stream')"><img src="../capsem/stream.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('machinery')"><img src="../capsem/machinery.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('projection')"><img src="../capsem/projection.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('recovery')"><img src="../capsem/recovery.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('barrier')"><img src="../capsem/barrier.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('wonder')"><img src="../capsem/wonder.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('gravity')"><img src="../capsem/gravity.png" width="50" height="50"></button></th>
-</tr>
-
-<tr>
-<th><button onclick="loadCapsem('plasma')"><img src="../capsem/plasma.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('booster')"><img src="../capsem/booster.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('catastrom')"><img src="../capsem/catastrom.png" width="50" height="50"></button></th>
-<th><button onclick="loadCapsem('orderm')"><img src="../capsem/orderm.png" width="50" height="50"></button></th>
-</tr>
-</table>
-
-<br>
-
-<!-- Main display -->
-<table class="center" id="box2">
-
-<tr>
-<th id="name" colspan="2" style="color: red; font-size: 500%;">
-Impact
-</th>
-</tr>
-
-<tr>
-<th id="capsem">
-<img src="../capsem/impact.png" width="200">
-</th>
-
-<th id="render">
-<img src="../render/impact.png">
-</th>
-</tr>
-
-<tr>
-<th id="capsem_gif" colspan="2">
-<img src="../capsem/gif/impact.gif" width="250">
-</th>
-</tr>
-
-<tr>
-<th id="info" colspan="2">
-Impact is a Zeztz-based form accessed using the capsem of the same name.
-</th>
-</tr>
-
-<tr>
-<th id="extra" colspan="2"></th>
-</tr>
-
-<tr>
-<th id="extraimg" colspan="2"></th>
-</tr>
-
-</table>
-
-<!-- Script -->
-<script src="zeztz_button.js"></script>
-
-<p>This site is devoted to celebrating Kamen Rider Zeztz, produced by Toei.</p>
-
+    <title>Rider Info</title>
 </head>
+
 <body>
+
+    <!-- Navigation -->
+    <a href="../rider_form_button.html" class="button">Back</a>
+    <a href="../capsem.html" style="color:gray; background-color: black;" class="button">Capsems</a>
+    <a href="../weapons.html" style="background-color: black; color: yellow;" class="button">weapon/gear</a>
+    <a href="../enemies.html" style="background-color: rgb(112, 3, 201); color: rgb(225, 0, 255);" class="button">Nightmares</a>
+    <a href="../blog/blog.html" style="background-color:rgb(44, 44, 44);color:rgba(51, 255, 0, 0.712)" class="button">blog</a>
+    <a href="../legendary_main.html" style="background-color: gold; color: yellow;" class="button">legend rider</a>
+
+    <!-- Driver -->
+    <table class="center" id="driverbox">
+        <tr>
+            <th>
+                <button onclick="loaddriver(0)">
+                    <img src="../driver/zeztz_driver.png" width="50" height="50" alt="zeztz driver">
+                </button>
+                <button onclick="loaddriver(1)">
+                    <img src="../driver/zeztz_exdream_driver.png" width="50" height="50" alt="Zeztz Exdream Driver">
+                </button>
+            </th>
+        </tr>
+    </table>
+
+    <!-- Capsem buttons -->
+    <table class="center" id="box">
+    </table>
+
+    <br>
+
+    <!-- Main display -->
+    <table class="center" id="box2">
+        <tr>
+            <th id="name" colspan="2" style="color: red; font-size: 500%;">
+                Impact
+            </th>
+        </tr>
+
+        <tr>
+            <th id="capsem">
+                <img src="../capsem/impact.png" width="200">
+            </th>
+
+            <th id="render">
+                <img src="../render/impact.png">
+            </th>
+        </tr>
+
+        <tr>
+            <th id="capsem_gif" colspan="2">
+                <img src="../capsem/gif/impact.gif" width="250">
+            </th>
+        </tr>
+
+        <tr>
+            <th id="info" colspan="2">
+                Impact is a Zeztz-based form accessed using the capsem of the same name.
+            </th>
+        </tr>
+
+        <tr>
+            <th id="extra" colspan="2"></th>
+        </tr>
+
+        <tr>
+            <th id="extraimg" colspan="2"></th>
+        </tr>
+    </table>
+
+    <!-- Script -->
+    <script src="zeztz_button.js"></script>
+
+    <p>This site is devoted to celebrating Kamen Rider Zeztz, produced by Toei.</p>
+
 </body>
 </html>
