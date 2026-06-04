@@ -21,6 +21,8 @@ function loadCapsem(key) {
 
     if (key == "extra"){
         loadtable(1)
+    }else if (key="lord_booster"){
+        loadtable(1)
     }else{
         loadtable(0)
     }

@@ -18,6 +18,9 @@ function loadCapsem(key) {
     if (data.name.toLowerCase() === "void") {
         capsem_gif.innerHTML = "";
     }
+    if (data.name.toLowerCase() === "code somnia") {
+        capsem_gif.innerHTML = "";
+    }
 
     if (data.color === "rainbow") {
         name.style.background = "linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet)";
@@ -114,7 +117,7 @@ const capsemData = {
         key: "CODE",
         name: "CODE",
         color: "rgba(43, 40, 44, 1)",
-        info: "CODE capsem never used to transform only used in Zeztz Gear",
+        info: "CODE capsem never used to transform only used in Zeztz Gear or to become Knight Seventeen",
         gradient:"linear-gradient(90deg, rgba(43, 40, 44, 1), gray) 1"
         
     },
@@ -192,6 +195,27 @@ const capsemData = {
         info: "a capsem created with essence of the Wolf Nightmare",
         gradient:"linear-gradient(90deg, rgba(102, 92, 0, 1), rgba(139, 137, 0, 1)) 1"
     },
+    midnight_shadow: {
+        key: "midnight_shadow",
+        name: "Midnight Shadow",
+        color: "black",
+        info: "Nox Power Up Capsem",
+        gradient:"linear-gradient(90deg, rgba(29, 0, 63, 1), rgb(46, 1, 97)) 1"
+    },
+    chaos: {
+        key: "chaos",
+        name: "Chaos",
+        color: "black",
+        info: "a capsem created with essence of multiple nightmares able to summon each nightmares",
+        gradient:"linear-gradient(90deg, rgba(29, 0, 63, 1), rgb(46, 1, 97)) 1"
+    },
+    phantom: {
+        key: "phantom",
+        name: "Phantom",
+        color: "black",
+        info: "a capsem created with the Phantom Nightmare power allowing the user to create illusions so real you can touch them.",
+        gradient:"linear-gradient(90deg, rgba(29, 0, 63, 1), rgb(46, 1, 97)) 1"
+    },
     blank: {
         key: "blank",
         name: "Blank",
@@ -226,6 +250,13 @@ const capsemData = {
         color: "magenta",
         info: "Clear",
         gradient:"linear-gradient(90deg, magenta, rgb(136, 0, 118)) 1"
+    },
+    code_somnia: {
+        key: "code_somnia",
+        name: "CODE Somnia",
+        color: "red",
+        info: "CODE Somnia unite all dreams in one allowing CODE to control everyone and make them unable to see nightmares as being real or giving them commands to complete.",
+        gradient:"linear-gradient(90deg, red, rgb(rgb(199, 5, 5)"
     },
     punish: {
         key: "punish",

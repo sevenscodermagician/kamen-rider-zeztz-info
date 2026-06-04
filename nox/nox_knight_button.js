@@ -39,7 +39,16 @@ const capsemData = {
             Shadow was created with the essence of the Wolf Nightmare
         `,
         gradient: "linear-gradient(90deg, rgba(102, 92, 0, 1), rgba(139, 137, 0, 1)) 1"
-    }
+    },
+    midnight_shadow: {
+        key: "midnight_shadow",
+        name: "Midnight Shadow",
+        color: "rgb(72, 0, 82)",
+        info: `
+            Midnight Shadow
+        `,
+        gradient: "linear-gradient(90deg, rgba(29, 0, 63, 1), rgb(46, 1, 97)) 1"
+    },
 };
 
 function loadCapsem(key) {
@@ -125,6 +134,9 @@ function loadtable(num) {
                         </button>
                         <button onclick="loadCapsem('wolf')">
                             <img src="../capsem/wolf.png" width="50" height="50" alt="wolf">
+                        </button>
+                        <button onclick="loadCapsem('midnight_shadow')">
+                            <img src="../capsem/midnight_shadow.png" width="50" height="50" alt="midnight_shadow">
                         </button>
                     </th>
                 </tr>
